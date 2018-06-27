@@ -2077,6 +2077,35 @@
             <size>0.19477 0.075174 0.10481</size>
           </box>
         </geometry>
+        <max_contacts>4</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <soft_erp>0.2</soft_erp>
+              <soft_cfm>0</soft_cfm>
+              <!--<kp>100000</kp>-->
+              <kp>18000000</kp>
+              <!--<kd>1</kd>-->
+              <kd>100</kd>
+              <max_vel>100</max_vel>
+              <!--<min_depth>0.001</min_depth>-->
+              <min_depth>0.0001</min_depth>
+            </ode>
+          </contact>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>100000</threshold>
+          </bounce>
+        </surface>
       </collision>
       <visual name='LeftFoot_visual'>
         <pose frame=''>0.05524 0 -0.052405 0 -0 0</pose>
@@ -2565,6 +2594,35 @@
             <size>0.19477 0.075174 0.10481</size>
           </box>
         </geometry>
+        <max_contacts>4</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <soft_erp>0.2</soft_erp>
+              <soft_cfm>0</soft_cfm>
+              <!--<kp>100000</kp>-->
+              <kp>18000000</kp>
+              <!--<kd>1</kd>-->
+              <kd>100</kd>
+              <max_vel>100</max_vel>
+              <!--<min_depth>0.001</min_depth>-->
+              <min_depth>0.0001</min_depth>
+            </ode>
+          </contact>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>100000</threshold>
+          </bounce>
+        </surface>
       </collision>
       <visual name='RightFoot_visual'>
         <pose frame=''>0.05524 0 -0.052405 0 -0 0</pose>
