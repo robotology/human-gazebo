@@ -236,8 +236,7 @@ bool HumanGazeboControlModule::updateModule()
   //READ Human-state-provider
   human::HumanState *input_state = state_port.read();
 
-  //if(input_state->positions.size() == human_joints)
-  if(3 == human_joints)
+  if(input_state->positions.size() == human_joints)
   {
 
       joint_positions_rad = input_state->positions;

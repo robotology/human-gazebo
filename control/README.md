@@ -1,1 +1,1 @@
-. This module is for the control of the human model in gazebo.
+This module is for the control of the human model in gazebo.
