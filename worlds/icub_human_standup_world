@@ -12,7 +12,7 @@
       <uri>model://ground_plane</uri>
     </include>
 
-    <!-- Chair for sittin' on -->
+    <!-- Chair for sitting on -->
     <include>
         <uri>model://chair</uri>
     </include>
@@ -22,7 +22,7 @@
     <uri>model://icub_standup</uri>
     </include>
 
-    <!-- iCub in the sitting position -->
+    <!-- Human model in upright position -->
     <include>
     <uri>model://sub0</uri>
     <pose>0.8 0 0.9325 0 0 3.14</pose>
