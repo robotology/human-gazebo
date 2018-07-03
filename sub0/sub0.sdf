@@ -2842,5 +2842,8 @@
     <plugin name='controlboard_right_ball_foot' filename='libgazebo_yarp_controlboard.so'>
       <yarpConfigurationFile>model://sub0/conf/gazebo_sub0_right_ball_foot.ini</yarpConfigurationFile>
     </plugin>
+    <plugin name='object_attacher' filename='libgazebo_yarp_objectattacher.so'>
+      <yarpConfigurationFile>model://sub0/conf/objectattacher.ini</yarpConfigurationFile>
+    </plugin>
   </model>
 </sdf>
