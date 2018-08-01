@@ -16,19 +16,19 @@ EOF
 }
 
 attach_left() {
-  echo "attachUnscoped iCub l_hand ${HUMAN} RightHand" | yarp rpc /${HUMAN}/objectattacher/rpc:i
+  echo "attachUnscoped iCub l_hand ${HUMAN} r_hand" | yarp rpc //objectattacher/rpc:i
 }
 
 attach_right() {
-  echo "attachUnscoped iCub r_hand ${HUMAN} LeftHand" | yarp rpc /${HUMAN}/objectattacher/rpc:i
+  echo "attachUnscoped iCub r_hand ${HUMAN} l_hand" | yarp rpc //objectattacher/rpc:i
 }
 
 detach_left() {
-  echo "detachUnscoped iCub l_hand" | yarp rpc /${HUMAN}/objectattacher/rpc:i
+  echo "detachUnscoped iCub l_hand" | yarp rpc //objectattacher/rpc:i
 }
 
 detach_right() {
-  echo "detachUnscoped iCub r_hand" | yarp rpc /${HUMAN}/objectattacher/rpc:i
+  echo "detachUnscoped iCub r_hand" | yarp rpc //objectattacher/rpc:i
 }
 
 ################################################################################
