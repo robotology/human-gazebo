@@ -9,28 +9,45 @@ USAGE:
 ***************************************************************************************
 OPTIONS: <function specifier>, human_model_name
 ***************************************************************************************
-EXAMPLE USAGE: ./attach attach sub0 -------> Attaching the hands of the human and robot
-EXAMPLE USAGE: ./attach detach sub0 -------> Detaching the hands of the human and robot
+EXAMPLE USAGE: ./attach attach sub0   -------> Attaching the hands of the human and robot
+EXAMPLE USAGE: ./attach detach sub0   -------> Detaching the hands of the human and robot
+EXAMPLE USAGE: ./attach attach iCub_0 -------> Attaching the hands of two iCub robots
+EXAMPLE USAGE: ./attach detach iCub_0 -------> Detaching the hands of two iCub robots
 ***************************************************************************************
 EOF
 }
 
-attach_left() {
-  echo "attachUnscoped iCub l_hand ${HUMAN} r_hand" | yarp rpc //objectattacher/rpc:i
+attach_iCub_left() {
+  echo "attachUnscoped icubSim l_hand ${HUMAN} r_hand" | yarp rpc //linkattacher/rpc:i
 }
 
-attach_right() {
-  echo "attachUnscoped iCub r_hand ${HUMAN} l_hand" | yarp rpc //objectattacher/rpc:i
+attach_iCub_right() {
+  echo "attachUnscoped icubSim r_hand ${HUMAN} l_hand" | yarp rpc //linkattacher/rpc:i
 }
 
-detach_left() {
-  echo "detachUnscoped iCub l_hand" | yarp rpc //objectattacher/rpc:i
+attach_human_left() {
+  echo "attachUnscoped iCub l_hand ${HUMAN} RightHand" | yarp rpc /${HUMAN}/linkattacher/rpc:i
 }
 
-detach_right() {
-  echo "detachUnscoped iCub r_hand" | yarp rpc //objectattacher/rpc:i
+attach_human_right() {
+  echo "attachUnscoped iCub r_hand ${HUMAN} LeftHand" | yarp rpc /${HUMAN}/linkattacher/rpc:i
 }
 
+detach_iCub_left() {
+  echo "detachUnscoped icubSim l_hand" | yarp rpc //linkattacher/rpc:i
+}
+
+detach_iCub_right() {
+  echo "detachUnscoped icubSim r_hand" | yarp rpc //linkattacher/rpc:i
+}
+
+detach_human_left() {
+  echo "detachUnscoped iCub l_hand" | yarp rpc /${HUMAN}/linkattacher/rpc:i
+}
+
+detach_human_right() {
+  echo "detachUnscoped iCub r_hand" | yarp rpc /${HUMAN}/linkattacher/rpc:i
+}
 ################################################################################
 # "MAIN" FUNCTION:                                                             #
 ################################################################################
@@ -45,13 +62,25 @@ FUNCTION=$1
 HUMAN=$2
 
 if [[ ${FUNCTION} == "attach" ]] ; then
-  attach_left
-  attach_right
+  if [[ ${HUMAN} == "iCub_0" ]] ; then
+    attach_iCub_left
+    attach_iCub_right
+  fi
+  if [[ ${HUMAN} == "sub0" ]] ; then
+    attach_human_left
+    attach_human_right
+  fi
 fi
 
 if [[ ${FUNCTION} == "detach" ]] ; then
-  detach_left
-  detach_right
+  if [[ ${HUMAN} == "iCub_0" ]] ; then
+    detach_iCub_left
+    detach_iCub_right
+  fi
+  if [[ ${HUMAN} == "sub0" ]] ; then
+    detach_human_left
+    detach_human_right
+  fi
 fi
 
 exit 0
