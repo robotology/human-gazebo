@@ -24,11 +24,12 @@
         </geometry>
       </collision>
       <visual name='Pelvis_visual'>
-        <pose frame=''>0 0 0.049333 0 -0 0</pose>
+        <pose frame=''>0 0 0.194 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.13554 0.24008 0.098815</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_pelvis.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -124,14 +125,6 @@
           </box>
         </geometry>
       </collision>
-      <visual name='L5_visual'>
-        <pose frame=''>0 0 0.054602 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.13554 0.16014 0.1092</size>
-          </box>
-        </geometry>
-      </visual>
     </link>
     <joint name='jL5S1_rotz' type='revolute'>
       <child>L5</child>
@@ -245,14 +238,6 @@
           </box>
         </geometry>
       </collision>
-      <visual name='L3_visual'>
-        <pose frame=''>0 0 0.049336 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.13554 0.16014 0.098672</size>
-          </box>
-        </geometry>
-      </visual>
     </link>
     <joint name='jL4L3_rotz' type='revolute'>
       <child>L3</child>
@@ -366,14 +351,6 @@
           </box>
         </geometry>
       </collision>
-      <visual name='T12_visual'>
-        <pose frame=''>0 0 0.049336 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.13554 0.16014 0.098672</size>
-          </box>
-        </geometry>
-      </visual>
     </link>
     <joint name='jL1T12_rotz' type='revolute'>
       <child>T12</child>
@@ -490,9 +467,10 @@
       <visual name='T8_visual'>
         <pose frame=''>0 0 0.069461 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.15068 0.06021 0.13892</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_T8.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -609,15 +587,6 @@
           </cylinder>
         </geometry>
       </collision>
-      <visual name='LeftShoulder_visual'>
-        <pose frame=''>0 0.069978 0 1.5708 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.13996</length>
-            <radius>0.025</radius>
-          </cylinder>
-        </geometry>
-      </visual>
     </link>
     <joint name='jLeftC7Shoulder_rotz' type='revolute'>
       <child>LeftShoulder</child>
@@ -735,10 +704,10 @@
       <visual name='LeftUpperArm_visual'>
         <pose frame=''>0 0.15002 0 1.5708 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.30005</length>
-            <radius>0.032507</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_leftupperarm.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -856,13 +825,13 @@
         </geometry>
       </collision>
       <visual name='LeftForeArm_visual'>
-        <pose frame=''>0 0.12263 0 1.5708 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.24527</length>
-            <radius>0.021672</radius>
-          </cylinder>
-        </geometry>
+        <pose frame=''>0 0.08 0 1.5708 -0 0</pose>
+          <geometry>
+          <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://sub0/meshes/visual/human_leftforearm.dae</uri>
+            </mesh>
+          </geometry>
       </visual>
     </link>
     <joint name='jLeftElbow_rotz' type='revolute'>
@@ -978,11 +947,12 @@
         </geometry>
       </collision>
       <visual name='LeftHand_visual'>
-        <pose frame=''>0 0.091535 0 0 -0 0</pose>
+        <pose frame=''>0 0.091535 -0.02 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.12205 0.18307 0.043343</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_lefthand.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -1099,15 +1069,6 @@
           </cylinder>
         </geometry>
       </collision>
-      <visual name='RightShoulder_visual'>
-        <pose frame=''>0 -0.069978 0 1.5708 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.13996</length>
-            <radius>0.025</radius>
-          </cylinder>
-        </geometry>
-      </visual>
     </link>
     <joint name='jRightC7Shoulder_rotz' type='revolute'>
       <child>RightShoulder</child>
@@ -1223,12 +1184,12 @@
         </geometry>
       </collision>
       <visual name='RightUpperArm_visual'>
-        <pose frame=''>0 -0.15002 0 1.5708 -0 0</pose>
+        <pose frame=''>0 -0.15002 0 -1.5708 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.30005</length>
-            <radius>0.032507</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_rightupperarm.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -1346,13 +1307,13 @@
         </geometry>
       </collision>
       <visual name='RightForeArm_visual'>
-        <pose frame=''>0 -0.12263 0 1.5708 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.24527</length>
-            <radius>0.021672</radius>
-          </cylinder>
-        </geometry>
+        <pose frame=''>0 -0.08 0 1.5708 -0 0</pose>
+          <geometry>
+          <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://sub0/meshes/visual/human_rightforearm.dae</uri>
+            </mesh>
+          </geometry>
       </visual>
     </link>
     <joint name='jRightElbow_rotz' type='revolute'>
@@ -1468,11 +1429,12 @@
         </geometry>
       </collision>
       <visual name='RightHand_visual'>
-        <pose frame=''>0 -0.091535 0 0 -0 0</pose>
+        <pose frame=''>0 -0.091535 0.0 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.12205 0.18307 0.043343</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_righthand.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -1589,15 +1551,6 @@
           </cylinder>
         </geometry>
       </collision>
-      <visual name='Neck_visual'>
-        <pose frame=''>0 0 0.045917 0 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.091834</length>
-            <radius>0.014704</radius>
-          </cylinder>
-        </geometry>
-      </visual>
     </link>
     <joint name='jT1C7_rotz' type='revolute'>
       <child>Neck</child>
@@ -1712,11 +1665,12 @@
         </geometry>
       </collision>
       <visual name='Head_visual'>
-        <pose frame=''>0 0 0.087994 0 -0 0</pose>
+        <pose frame=''>0.03 0 0.06 0 -0 0</pose>
         <geometry>
-          <sphere>
-            <radius>0.087994</radius>
-          </sphere>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_head.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -1834,12 +1788,12 @@
         </geometry>
       </collision>
       <visual name='LeftUpperLeg_visual'>
-        <pose frame=''>0 0 -0.21002 0 -0 0</pose>
+        <pose frame=''>0 -0.02 -0.21002 0 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.42004</length>
-            <radius>-0.052927</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_leftupperleg.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -1957,12 +1911,12 @@
         </geometry>
       </collision>
       <visual name='LeftLowerLeg_visual'>
-        <pose frame=''>0 0 -0.20367 0 -0 0</pose>
+        <pose frame=''>0 0 -0.22 0 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.40734</length>
-            <radius>0.037587</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_leftlowerleg.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -2108,11 +2062,12 @@
         </surface>
       </collision>
       <visual name='LeftFoot_visual'>
-        <pose frame=''>0.05524 0 -0.052405 0 -0 0</pose>
+        <pose frame=''>0.11 0 -0.052405 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.19477 0.075174 0.10481</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_leftfoot.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -2228,14 +2183,6 @@
           </box>
         </geometry>
       </collision>
-      <visual name='LeftToe_visual'>
-        <pose frame=''>0.029147 0 0 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.058294 0.075174 0.014622</size>
-          </box>
-        </geometry>
-      </visual>
     </link>
     <joint name='jLeftBallFoot_rotz' type='revolute'>
       <child>LeftToe</child>
@@ -2351,12 +2298,12 @@
         </geometry>
       </collision>
       <visual name='RightUpperLeg_visual'>
-        <pose frame=''>0 0 -0.21002 0 -0 0</pose>
+        <pose frame=''>0 0.02 -0.21002 0 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.42004</length>
-            <radius>0.052927</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_rightupperleg.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -2474,12 +2421,12 @@
         </geometry>
       </collision>
       <visual name='RightLowerLeg_visual'>
-        <pose frame=''>0 0 -0.20367 0 -0 0</pose>
+        <pose frame=''>0 0 -0.22 0 -0 0</pose>
         <geometry>
-          <cylinder>
-            <length>0.40734</length>
-            <radius>0.037587</radius>
-          </cylinder>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_rightlowerleg.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -2625,11 +2572,12 @@
         </surface>
       </collision>
       <visual name='RightFoot_visual'>
-        <pose frame=''>0.05524 0 -0.052405 0 -0 0</pose>
+        <pose frame=''>0.11 0 -0.052405 0 -0 0</pose>
         <geometry>
-          <box>
-            <size>0.19477 0.075174 0.10481</size>
-          </box>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://sub0/meshes/visual/human_rightfoot.dae</uri>
+          </mesh>
         </geometry>
       </visual>
     </link>
@@ -2745,14 +2693,6 @@
           </box>
         </geometry>
       </collision>
-      <visual name='RightToe_visual'>
-        <pose frame=''>0.029147 0 0 0 -0 0</pose>
-        <geometry>
-          <box>
-            <size>0.058294 0.075174 0.014622</size>
-          </box>
-        </geometry>
-      </visual>
     </link>
     <joint name='jRightBallFoot_rotz' type='revolute'>
       <child>RightToe</child>
