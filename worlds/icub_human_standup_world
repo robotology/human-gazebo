@@ -19,13 +19,19 @@
 
     <!-- iCub in the sitting position -->
     <include>
-    <uri>model://icub_standup</uri>
+        <uri>model://icub_standup</uri>
     </include>
+
+    <!-- iCub in the standing position -->
+    <!--include>
+        <uri>model://icub</uri>
+    </include-->
 
     <!-- Human model in upright position -->
     <include>
-    <uri>model://sub0</uri>
-    <pose>0.8 0 0.9325 0 0 3.14</pose>
+        <uri>model://sub0</uri>
+        <pose>0.59 0 0.9325 0 0 3.14</pose>
     </include>
+
   </world>
 </sdf>

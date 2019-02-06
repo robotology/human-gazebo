@@ -139,8 +139,8 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>1.309</upper>
+          <lower>-0</lower>
+          <upper>0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -260,8 +260,8 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>1.309</upper>
+          <lower>-0</lower>
+          <upper>0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -381,8 +381,8 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>1.309</upper>
+          <lower>-0</lower>
+          <upper>0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -452,7 +452,7 @@
         <xyz>0 1 0</xyz>
         <limit>
           <lower>-0.261799</lower>
-          <upper>0.698132</upper>
+          <upper>0.872665</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -1517,8 +1517,8 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.610865</lower>
-          <upper>0.610865</upper>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -1552,8 +1552,8 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.959931</lower>
-          <upper>1.5708</upper>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -1605,8 +1605,8 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-1.22173</lower>
-          <upper>1.22173</upper>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -1640,8 +1640,8 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.610865</lower>
-          <upper>0.610865</upper>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -1726,7 +1726,7 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.436332</lower>
+          <lower>-0.174533</lower>
           <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
@@ -2244,7 +2244,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>-0.174533</lower>
-          <upper>1.5708</upper>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -2761,7 +2761,7 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>-0.174533</lower>
-          <upper>1.5708</upper>
+          <upper>0.174533</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
@@ -2842,8 +2842,8 @@
     <plugin name='controlboard_right_ball_foot' filename='libgazebo_yarp_controlboard.so'>
       <yarpConfigurationFile>model://sub0/conf/gazebo_sub0_right_ball_foot.ini</yarpConfigurationFile>
     </plugin>
-    <plugin name='object_attacher' filename='libgazebo_yarp_objectattacher.so'>
-      <yarpConfigurationFile>model://sub0/conf/objectattacher.ini</yarpConfigurationFile>
+    <plugin name='link_attacher' filename='libgazebo_yarp_linkattacher.so'>
+      <yarpConfigurationFile>model://sub0/conf/linkattacher.ini</yarpConfigurationFile>
     </plugin>
   </model>
 </sdf>
