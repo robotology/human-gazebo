@@ -19,7 +19,7 @@
 				<box size="0.13695     0.24878    0.091304"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -30,7 +30,7 @@
 				<box size="0.13695     0.24878    0.091304"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -65,7 +65,7 @@
 				<box size="0.13695      0.1618    0.081662"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -76,7 +76,7 @@
 				<box size="0.13695      0.1618    0.081662"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
@@ -109,7 +109,7 @@
 				<box size="0.13695      0.1618    0.073749"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -120,7 +120,7 @@
 				<box size="0.13695      0.1618    0.073749"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
@@ -153,7 +153,7 @@
 				<box size="0.13695      0.1618    0.073749"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -164,7 +164,7 @@
 				<box size="0.13695      0.1618    0.073749"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
@@ -197,7 +197,7 @@
 				<box size="0.12543    0.051924     0.10425"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -208,7 +208,7 @@
 				<box size="0.12543    0.051924     0.10425"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -242,7 +242,7 @@
 				<cylinder length="0.087412" radius="0.014099"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -253,7 +253,7 @@
 				<cylinder length="0.087412" radius="0.014099"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
@@ -286,7 +286,7 @@
 				<sphere radius="0.089927"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -297,7 +297,7 @@
 				<sphere radius="0.089927"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -332,7 +332,7 @@
 				<cylinder length="0.14091" radius="0.025164"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -343,7 +343,7 @@
 				<cylinder length="0.14091" radius="0.025164"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -377,7 +377,7 @@
 				<cylinder length="0.27611" radius="0.030104"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -388,7 +388,7 @@
 				<cylinder length="0.27611" radius="0.030104"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -422,7 +422,7 @@
 				<cylinder length="0.22743" radius="0.020069"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -433,7 +433,7 @@
 				<cylinder length="0.22743" radius="0.020069"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -467,7 +467,7 @@
 				<box size="0.11392     0.17088    0.040138"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -478,7 +478,7 @@
 				<box size="0.11392     0.17088    0.040138"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -513,7 +513,7 @@
 				<cylinder length="0.14091" radius="0.025164"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -524,7 +524,7 @@
 				<cylinder length="0.14091" radius="0.025164"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -558,7 +558,7 @@
 				<cylinder length="0.27611" radius="0.030104"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -569,7 +569,7 @@
 				<cylinder length="0.27611" radius="0.030104"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -603,7 +603,7 @@
 				<cylinder length="0.22743" radius="0.020069"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -614,7 +614,7 @@
 				<cylinder length="0.22743" radius="0.020069"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -648,7 +648,7 @@
 				<box size="0.11392     0.17088    0.040138"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -659,7 +659,7 @@
 				<box size="0.11392     0.17088    0.040138"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -694,7 +694,7 @@
 				<cylinder length="0.4767" radius="0.060101"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -705,7 +705,7 @@
 				<cylinder length="0.4767" radius="0.060101"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -739,7 +739,7 @@
 				<cylinder length="0.44087" radius="0.040434"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -750,7 +750,7 @@
 				<cylinder length="0.44087" radius="0.040434"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -784,7 +784,7 @@
 				<box size="0.17852    0.080869    0.075737"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -795,7 +795,7 @@
 				<box size="0.17852    0.080869    0.075737"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -829,7 +829,7 @@
 				<box size="0.061481    0.080869    0.014482"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -840,7 +840,7 @@
 				<box size="0.061481    0.080869    0.014482"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
@@ -874,7 +874,7 @@
 				<cylinder length="0.4767" radius="-0.060101"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -885,7 +885,7 @@
 				<cylinder length="0.4767" radius="-0.060101"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -919,7 +919,7 @@
 				<cylinder length="0.44087" radius="0.040434"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -930,7 +930,7 @@
 				<cylinder length="0.44087" radius="0.040434"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -964,7 +964,7 @@
 				<box size="0.17852    0.080869    0.075737"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -975,7 +975,7 @@
 				<box size="0.17852    0.080869    0.075737"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 
@@ -1009,7 +1009,7 @@
 				<box size="0.061481    0.080869    0.014482"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</visual>
 
@@ -1020,7 +1020,7 @@
 				<box size="0.061481    0.080869    0.014482"/>
 			</geometry>
 			<material name="Cyan">
-				<color rgba="0.1 0.3 0.8 0.4"/>
+				<color rgba="0.7 0.2 0.1 0.4"/>
 			</material>
 		</collision>
 	</link>
