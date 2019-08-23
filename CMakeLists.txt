@@ -15,7 +15,9 @@ set (HUMAN_GAZEBO_FILES humanSubject01/humanSubject01_66dof.urdf
 			humanSubject06/humanSubject06_66dof.urdf
 			humanSubject06/humanSubject06_48dof.urdf
 			humanSubject07/humanSubject07_66dof.urdf
-			humanSubject07/humanSubject07_48dof.urdf)
+			humanSubject07/humanSubject07_48dof.urdf
+			humanSubject08/humanSubject08_66dof.urdf
+			humanSubject08/humanSubject08_48dof.urdf)
 
 # Install human urdf models in human-gazebo directory
 install(FILES ${HUMAN_GAZEBO_FILES} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME})
