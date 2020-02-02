@@ -652,7 +652,7 @@
 			<!--box origin wrt jLeftHip-->
             <origin xyz="0           0    -0.26304" rpy="0 0 0" />
             <geometry>
-                <cylinder length="0.52609" radius="-0.066238"/>
+                <cylinder length="0.52609" radius="0.066238"/>
             </geometry>
         </visual>
 
@@ -660,7 +660,7 @@
 			<!--box origin wrt jLeftHip-->
             <origin xyz="0           0    -0.26304" rpy="0 0 0" />
             <geometry>
-                <cylinder length="0.52609" radius="-0.066238"/>
+                <cylinder length="0.52609" radius="0.066238"/>
             </geometry>
         </collision>
 

@@ -1829,7 +1829,7 @@
         <geometry>
           <cylinder>
             <length>0.42004</length>
-            <radius>-0.052927</radius>
+            <radius>0.052927</radius>
           </cylinder>
         </geometry>
       </collision>
@@ -1838,7 +1838,7 @@
         <geometry>
           <cylinder>
             <length>0.42004</length>
-            <radius>-0.052927</radius>
+            <radius>0.052927</radius>
           </cylinder>
         </geometry>
       </visual>
