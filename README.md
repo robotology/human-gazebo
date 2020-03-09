@@ -5,7 +5,7 @@ This repository contains the human gazebo models that are used with [Human Dynam
 ![Human model image](misc/human-model.png)
 
 
-The measurements of each of the human subject are available from the table. Please refer to the human subject data pdf file to know how these measurements are taken. The urdf models are generated from xsens mvnx file generated through xsens mvn studio software suite.  The code to generate the model is available [here](https://github.com/claudia-lat/human-URDF)
+The measurements of each of the human subject are available from the table. Please refer to the human subject data pdf file to know how these measurements are taken. The urdf models are generated from xsens mvnx file generated through xsens mvn studio software suite.  The code to generate the model is available [here](https://github.com/dic-iit/human-model-generator)
 
 
 |   Subject |  Mass [kg] | Height [cm] | Foot size [cm] | Arm span [cm] | Ankle height [cm] | Hip height [cm]| Hip width [cm] | Knee height [cm] | Shoulder width [cm] | Shoulder height [cm] | Sole height [cm] |
