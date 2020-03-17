@@ -56,3 +56,47 @@ kindynComp.setRobotState(jointPos,...
 comPosition     = kindynComp.getCenterOfMassPosition();
 comVelocity     = kindynComp.getCenterOfMassVelocity();
 comAcceleration = kindynComp.getCenterOfMassBiasAcc();
+
+%% Test Link Symmetry
+linkPrefixes = ["Left", "Right"];
+linkNames = ["UpperLeg",...
+             "LowerLeg",...
+             "Foot",...
+             "Toe",...
+             "Shoulder",...
+             "UpperArm",...
+             "ForeArm",...
+             "Hand"];
+
+linkPosTolerance = 1e-5;
+         
+%% Iterate over links
+for i = 1:size(linkNames, 2)
+    
+    leftLinkName  = linkPrefixes(1) + linkNames(i);
+    rightLinkName = linkPrefixes(2) + linkNames(i);
+    
+    fprintf("============================================================== \n");
+    fprintf("Comparing %s and %s links transforms \n", leftLinkName, rightLinkName);
+    
+    % Get link transforms
+    leftLinkTransform  = kindynComp.getWorldTransform(model.getLinkIndex(char(leftLinkName)));
+    rightLinkTransform = kindynComp.getWorldTransform(model.getLinkIndex(char(rightLinkName)));
+    
+    for p = 1:3
+        
+        % Check if the transform positions are equal in magnitude
+        if (abs(leftLinkTransform.getPosition().getVal(p-1)) - ...
+            abs(rightLinkTransform.getPosition().getVal(p-1)) > linkPosTolerance)
+        
+            fprintf('Position tolerance for index %i is not matching \n', p-1)
+            fprintf('%s position at index %i is %d \n', leftLinkName, p-1, leftLinkTransform.getPosition().getVal(p-1));
+            fprintf('%s position at index %i is %d \n', rightLinkName, p-1, rightLinkTransform.getPosition().getVal(p-1));
+            
+        else
+            fprintf('Link positions at index %i are matching \n', p-1)
+        end
+            
+    end
+    
+end
