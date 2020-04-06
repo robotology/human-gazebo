@@ -338,10 +338,10 @@
     </link>
 	<link name="RightHand">
         <inertial>
-            <mass value="1.1124"/>
+            <mass value="0.4524"/>
 			<!--COM origin wrt jRightWrist-->
             <origin xyz="0   -0.096206           0" rpy="0 0 0" />
-            <inertia ixx="0.0036219" iyy="0.0017152" izz="0.0049573" ixy="0" ixz="0" iyz="0"/>
+            <inertia ixx="0.001473" iyy="0.00069756" izz="0.0020161" ixy="0" ixz="0" iyz="0"/>
         </inertial>
 
         <visual>
