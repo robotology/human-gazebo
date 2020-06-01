@@ -1,6 +1,6 @@
 # human-gazebo
 
-This repository contains the human gazebo models that are used with [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) software suite. The human model links are made of several simple rigid bodies as shown in the figure below:
+This repository contains the human gazebo models that are used with [Human Dynamics Estimation](https://github.com/robotology/human-dynamics-estimation) software suite.  The files are generated using [xsens motion capture](https://www.xsens.com/) data and [human-model-generator](https://github.com/dic-iit/human-model-generator). The human model links are made of several simple rigid bodies as shown in the figure below:
 
 ![Human model image](misc/human-model.png)
 
