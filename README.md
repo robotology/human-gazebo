@@ -19,5 +19,5 @@ The measurements of each of the human subject are available from the table. Plea
 |  7 | 78.9 | 178 |  28 | 192 | 8 | 102 | 30 | 52   | 44   | 148 | - |
 |  8 | 55.2 | 166 |  25 | 170 | 8 | 90  | 28 | 45   | 37   | 139 | - |
 
-Currently, the legacy directory contains files related to joint motor control boards based on gazebo-yarp-plugins and other configuration files needed to control the human joints.
+Currently, the legacy directory contains files related to joint motor control boards based on [gazebo-yarp-plugins](https://github.com/robotology/gazebo-yarp-plugins) and other configuration files needed to control the human joints.
 
