@@ -1,6 +1,11 @@
 <!--URDF MODEL 48 DoFs-->
 
 <robot name="XSensStyleModel_template">
+
+<material name="color">
+    <color rgba="0.1 0.1 0.1 1"/>
+</material>
+
 <!--To open this model with Gazebo replace the null masses, inertias and dimensions of the 'fake links f1 and f2'-->
     <!--LINKS-->
 	<!--Link base (1)-->
@@ -18,6 +23,7 @@
             <geometry>
                 <box size="0.17519     0.32675     0.11973"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -51,6 +57,7 @@
             <geometry>
                 <box size="0.17519     0.20699     0.08793"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -82,6 +89,7 @@
             <geometry>
                 <box size="0.17519     0.20699    0.079417"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -113,6 +121,7 @@
             <geometry>
                 <box size="0.17519     0.20699    0.079417"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -151,6 +160,7 @@
             <geometry>
                 <box size="0.13327    0.055172     0.11227"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -190,6 +200,7 @@
             <geometry>
 		<cylinder length="0.10427" radius="0.016051"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -221,6 +232,7 @@
             <geometry>
                 <sphere radius="0.11223"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -247,6 +259,7 @@
             <geometry>
                 <cylinder length="0.14666" radius="0.026313"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -286,6 +299,7 @@
             <geometry>
                 <cylinder length="0.27379" radius="0.030014"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -318,6 +332,7 @@
             <geometry>
                 <cylinder length="0.22718" radius="0.020009"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -350,6 +365,7 @@
             <geometry>
                 <box size="0.11468     0.17202    0.040019"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -376,6 +392,7 @@
             <geometry>
                 <cylinder length="0.14666" radius="0.026313"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -415,6 +432,7 @@
             <geometry>
                 <cylinder length="0.27379" radius="0.030014"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -447,6 +465,7 @@
             <geometry>
                 <cylinder length="0.22718" radius="0.020009"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -479,6 +498,7 @@
             <geometry>
                 <box size="0.11468     0.17202    0.040019"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -519,6 +539,7 @@
             <geometry>
                 <cylinder length="0.47802" radius="0.060305"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -551,6 +572,7 @@
             <geometry>
                 <cylinder length="0.40179" radius="0.037143"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -590,6 +612,7 @@
             <geometry>
                 <box size="0.18999    0.074286    0.078097"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -615,6 +638,7 @@
             <geometry>
                 <box size="0.070006    0.074286    0.016026"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -654,6 +678,7 @@
             <geometry>
                 <cylinder length="0.47802" radius="0.060305"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -686,6 +711,7 @@
             <geometry>
 		<cylinder length="0.40179" radius="0.037143"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -725,6 +751,7 @@
             <geometry>
                 <box size="0.18999    0.074286    0.078097"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
@@ -750,6 +777,7 @@
             <geometry>
                 <box size="0.070006    0.074286    0.016026"/>
             </geometry>
+            <material name="color"/>
         </visual>
 
         <collision>
