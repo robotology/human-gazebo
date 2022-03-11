@@ -1,0 +1,2953 @@
+<sdf version='1.6'>
+  <model name='humanSubject01_66dof'>
+    <pose>0 0 0.9325 0 0 0</pose>
+    <!--Link base (1)-->
+    <link name='Pelvis'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.049333 0 -0 0</pose>
+        <mass>4.976</mass>
+        <inertia>
+          <ixx>0.029678</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.011854</iyy>
+          <iyz>0</iyz>
+          <izz>0.033653</izz>
+        </inertia>
+      </inertial>
+
+      <collision name='Pelvis_collision'>
+        <pose frame=''>0 0 0.049333 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.24914  0.097469</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name='Pelvis_visual'>
+        <pose frame=''>0 0 0.049333 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.24914  0.097469</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--Chain from (2) to (7)-->
+    <link name='L5_f1'>
+      <pose relative_to='jL5S1_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='L5_f2'>
+      <pose relative_to='jL5S1_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='L5'>
+
+      <pose relative_to='jL5S1_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.047552 0 -0 0</pose>
+        <mass>6.3444</mass>
+        <inertia>
+          <ixx>0.018868</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.014872</iyy>
+          <iyz>0</iyz>
+          <izz>0.024177</izz>
+        </inertia>
+      </inertial>
+
+      <collision name='L5_collision'>
+        <pose frame=''>0 0 0.047552 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323   0.095104</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name='L5_visual'>
+        <pose frame=''>0 0 0.047552 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323   0.095104</size>
+          </box>
+        </geometry>
+      </visual>
+
+    </link>
+    <link name='L3_f1'>
+      <pose relative_to='jL4L3_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='L3_f2'>
+      <pose relative_to='jL4L3_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='L3'>
+      <pose relative_to='jL4L3_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <mass>6.3444</mass>
+        <inertia>
+          <ixx>0.017989</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.013993</iyy>
+          <iyz>0</iyz>
+          <izz>0.024177</izz>
+        </inertia>
+      </inertial>
+      <collision name='L3_collision'>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323   0.085916</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='L3_visual'>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323   0.085916</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <link name='T12_f1'>
+      <pose relative_to='jL1T12_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='T12_f2'>
+      <pose relative_to='jL1T12_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='T12'>
+      <pose relative_to='jL1T12_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <mass>6.3444</mass>
+        <inertia>
+          <ixx>0.017989</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.013993</iyy>
+          <iyz>0</iyz>
+          <izz>0.024177</izz>
+        </inertia>
+      </inertial>
+      <collision name='T12_collision'>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323  0.085916</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='T12_visual'>
+        <pose frame=''>0 0 0.042958 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13815  0.16323  0.085916</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <link name='T8_f1'>
+      <pose relative_to='jT9T8_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='T8_f2'>
+      <pose relative_to='jT9T8_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='T8'>
+      <pose relative_to='jT9T8_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.059874 0 -0 0</pose>
+        <mass>2.488</mass>
+        <inertia>
+          <ixx>0.0035473</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0067278</iyy>
+          <iyz>0</iyz>
+          <izz>0.0043289</izz>
+        </inertia>
+      </inertial>
+      <collision name='T8_collision'>
+        <pose frame=''>0 0 0.059874 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13457  0.052626  0.11975</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='T8_visual'>
+        <pose frame=''>0 0 0.059874 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.13457  0.052626  0.11975</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <link name='Neck_f1'>
+      <pose relative_to='jT1C7_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='Neck_f2'>
+      <pose relative_to='jT1C7_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='Neck'>
+      <pose relative_to='jT1C7_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.044626 0 -0 0</pose>
+        <mass>0.7464</mass>
+        <inertia>
+          <ixx>0.0006461</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006461</iyy>
+          <iyz>0</iyz>
+          <izz>0.00030124</izz>
+        </inertia>
+      </inertial>
+      <collision name='Neck_collision'>
+        <pose frame=''>0 0 0.044626 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.089252</length>
+            <radius>0.014205</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='Neck_visual'>
+        <pose frame=''>0 0 0.044626 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.089252</length>
+            <radius>0.014205</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='Head_f1'>
+      <pose relative_to='jC1Head_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='Head_f2'>
+      <pose relative_to='jC1Head_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='Head'>
+      <pose relative_to='jC1Head_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0.089005 0 -0 0</pose>
+        <mass>2.2392</mass>
+        <inertia>
+          <ixx>0.0070955</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0070955</iyy>
+          <iyz>0</iyz>
+          <izz>0.0070955</izz>
+        </inertia>
+      </inertial>
+      <collision name='Head_collision'>
+        <pose frame=''>0 0 0.089005 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.089005</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name='Head_visual'>
+        <pose frame=''>0 0 0.089005 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.089005</radius>
+          </sphere>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--Chain from (8) to (11)-->
+    <link name='RightShoulder_f1'>
+      <pose relative_to='jRightC7Shoulder_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightShoulder_f2'>
+      <pose relative_to='jRightC7Shoulder_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightShoulder'>
+      <pose relative_to='jRightC7Shoulder_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 -0.065233 0 0 -0 0</pose>
+        <mass>1.9282</mass>
+        <inertia>
+          <ixx>0.0030029</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00053578</iyy>
+          <iyz>0</iyz>
+          <izz>0.0030029</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightShoulder_collision'>
+        <pose frame=''>0 -0.065233 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.13047</length>
+            <radius>0.023574</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='RightShoulder_visual'>
+        <pose frame=''>0 -0.069978 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.13047</length>
+            <radius>0.023574</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightUpperArm_f1'>
+      <pose relative_to='jRightShoulder_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightUpperArm_f2'>
+      <pose relative_to='jRightShoulder_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightUpperArm'>
+      <pose relative_to='jRightShoulder_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 -0.13497 0 0 -0 0</pose>
+        <mass>1.866</mass>
+        <inertia>
+          <ixx>0.011736</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00080917</iyy>
+          <iyz>0</iyz>
+          <izz>0.011736</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightUpperArm_collision'>
+        <pose frame=''>0 -0.13497 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.26994</length>
+            <radius>0.029449</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='RightUpperArm_visual'>
+        <pose frame=''>0 -0.13497 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.26994</length>
+            <radius>0.029449</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightForeArm_f1'>
+      <pose relative_to='jRightElbow_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightForeArm_f2'>
+      <pose relative_to='jRightElbow_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightForeArm'>
+      <pose relative_to='jRightElbow_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 -0.11124 0 0 -0 0</pose>
+        <mass>1.244</mass>
+        <inertia>
+          <ixx>0.0052508</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00023975</iyy>
+          <iyz>0</iyz>
+          <izz>0.0052508</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightForeArm_collision'>
+        <pose frame=''>0 -0.11124 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.22247</length>
+            <radius>0.019633</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='RightForeArm_visual'>
+        <pose frame=''>0 -0.11124 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.22247</length>
+            <radius>0.019633</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightHand_f1'>
+      <pose relative_to='jRightWrist_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightHand_f2'>
+      <pose relative_to='jRightWrist_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightHand'>
+      <pose relative_to='jRightWrist_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 -0.083588 0 0 -0 0</pose>
+        <mass>0.3732</mass>
+        <inertia>
+          <ixx>0.00091713</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00043425</iyy>
+          <iyz>0</iyz>
+          <izz>0.0012555</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightHand_collision'>
+        <pose frame=''>0 -0.083588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.11145  0.16718  0.039266</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='RightHand_visual'>
+        <pose frame=''>0 -0.083588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.11145  0.16718  0.039266</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--Chain from (12) to (15)-->
+    <link name='LeftShoulder_f1'>
+      <pose relative_to='jLeftC7Shoulder_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftShoulder_f2'>
+      <pose relative_to='jLeftC7Shoulder_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftShoulder'>
+      <pose relative_to='jLeftC7Shoulder_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0.065233 0 0 -0 0</pose>
+        <mass>1.9282</mass>
+        <inertia>
+          <ixx>0.0030029</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00053578</iyy>
+          <iyz>0</iyz>
+          <izz>0.0030029</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftShoulder_collision'>
+        <pose frame=''>0 0.065233 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.13047</length>
+            <radius>0.023574</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='LeftShoulder_visual'>
+        <pose frame=''>0 0.065233 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.13047</length>
+            <radius>0.023574</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftUpperArm_f1'>
+      <pose relative_to='jLeftShoulder_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftUpperArm_f2'>
+      <pose relative_to='jLeftShoulder_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftUpperArm'>
+      <pose relative_to='jLeftShoulder_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0.13497 0 0 -0 0</pose>
+        <mass>1.866</mass>
+        <inertia>
+          <ixx>0.011736</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00080917</iyy>
+          <iyz>0</iyz>
+          <izz>0.011736</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftUpperArm_collision'>
+        <pose frame=''>0 0.13497 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.26994</length>
+            <radius>0.029449</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='LeftUpperArm_visual'>
+        <pose frame=''>0 0.13497 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.26994</length>
+            <radius>0.029449</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftForeArm_f1'>
+      <pose relative_to='jLeftElbow_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftForeArm_f2'>
+      <pose relative_to='jLeftElbow_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftForeArm'>
+      <pose relative_to='jLeftElbow_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0.11124 0 0 -0 0</pose>
+        <mass>1.244</mass>
+        <inertia>
+          <ixx>0.0052508</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00023975</iyy>
+          <iyz>0</iyz>
+          <izz>0.0052508</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftForeArm_collision'>
+        <pose frame=''>0 0.11124 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.22247</length>
+            <radius>0.019633</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='LeftForeArm_visual'>
+        <pose frame=''>0 0.11124 0 1.5708 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.22247</length>
+            <radius>0.019633</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftHand_f1'>
+      <pose relative_to='jLeftWrist_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftHand_f2'>
+      <pose relative_to='jLeftWrist_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftHand'>
+      <pose relative_to='jLeftWrist_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0.083588 0 0 -0 0</pose>
+        <mass>0.3732</mass>
+        <inertia>
+          <ixx>0.00091713</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00043425</iyy>
+          <iyz>0</iyz>
+          <izz>0.0012555</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftHand_collision'>
+        <pose frame=''>0 0.083588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.11145  0.16718  0.039266</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='LeftHand_visual'>
+        <pose frame=''>0 0.083588 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.11145  0.16718  0.039266</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--Chain from (16) to (19)-->
+    <link name='RightUpperLeg_f1'>
+      <pose relative_to='jRightHip_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightUpperLeg_f2'>
+      <pose relative_to='jRightHip_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightUpperLeg'>
+      <pose relative_to='jRightHip_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <mass>7.775</mass>
+        <inertia>
+          <ixx>0.13681</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.13681</iyy>
+          <iyz>0</iyz>
+          <izz>0.01241</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightUpperLeg_collision'>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.44898</length>
+            <radius>0.0565</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='RightUpperLeg_visual'>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.44898</length>
+            <radius>0.0565</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightLowerLeg_f1'>
+      <pose relative_to='jRightKnee_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightLowerLeg_f2'>
+      <pose relative_to='jRightKnee_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightLowerLeg'>
+      <pose relative_to='jRightKnee_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <mass>2.2703</mass>
+        <inertia>
+          <ixx>0.031992</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.031992</iyy>
+          <iyz>0</iyz>
+          <izz>0.0015867</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightLowerLeg_collision'>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40608</length>
+            <radius>0.037388</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='RightLowerLeg_visual'>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40608</length>
+            <radius>0.037388</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightFoot_f1'>
+      <pose relative_to='jRightAnkle_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightFoot_f2'>
+      <pose relative_to='jRightAnkle_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightFoot'>
+      <pose relative_to='jRightAnkle_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <mass>0.8086</mass>
+        <inertia>
+          <ixx>0.0011257</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0033102</iyy>
+          <iyz>0</iyz>
+          <izz>0.0029493</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightFoot_collision'>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17983  0.074775  0.078509</size>
+          </box>
+        </geometry>
+        <max_contacts>4</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <soft_erp>0.2</soft_erp>
+              <soft_cfm>0</soft_cfm>
+              <!--<kp>100000</kp>-->
+              <kp>18000000</kp>
+              <!--<kd>1</kd>-->
+              <kd>100</kd>
+              <max_vel>100</max_vel>
+              <!--<min_depth>0.001</min_depth>-->
+              <min_depth>0.0001</min_depth>
+            </ode>
+          </contact>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>100000</threshold>
+          </bounce>
+        </surface>
+      </collision>
+      <visual name='RightFoot_visual'>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17983  0.074775  0.078509</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <link name='RightToe_f1'>
+      <pose relative_to='jRightBallFoot_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightToe_f2'>
+      <pose relative_to='jRightBallFoot_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='RightToe'>
+      <pose relative_to='jRightBallFoot_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <mass>0.0933</mass>
+        <inertia>
+          <ixx>4.5038e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.9717e-05</iyy>
+          <iyz>0</iyz>
+          <izz>7.1624e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='RightToe_collision'>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.060173  0.074775  0.014191</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='RightToe_visual'>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.060173  0.074775  0.014191</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--Chain from (20) to (23)-->
+    <link name='LeftUpperLeg_f1'>
+      <pose relative_to='jLeftHip_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftUpperLeg_f2'>
+      <pose relative_to='jLeftHip_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftUpperLeg'>
+      <pose relative_to='jLeftHip_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <mass>7.775</mass>
+        <inertia>
+          <ixx>0.13681</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.13681</iyy>
+          <iyz>0</iyz>
+          <izz>0.01241</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftUpperLeg_collision'>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.44898</length>
+            <radius>0.0565</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='LeftUpperLeg_visual'>
+        <pose frame=''>0 0 -0.22449 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.44898</length>
+            <radius>0.0565</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftLowerLeg_f1'>
+      <pose relative_to='jLeftKnee_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftLowerLeg_f2'>
+      <pose relative_to='jLeftKnee_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftLowerLeg'>
+      <pose relative_to='jLeftKnee_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <mass>2.2703</mass>
+        <inertia>
+          <ixx>0.031992</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.031992</iyy>
+          <iyz>0</iyz>
+          <izz>0.0015867</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftLowerLeg_collision'>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40608</length>
+            <radius>0.037388</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='LeftLowerLeg_visual'>
+        <pose frame=''>0 0 -0.20304 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.40608</length>
+            <radius>0.037388</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftFoot_f1'>
+      <pose relative_to='jLeftAnkle_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftFoot_f2'>
+      <pose relative_to='jLeftAnkle_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftFoot'>
+      <pose relative_to='jLeftAnkle_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <mass>0.8086</mass>
+        <inertia>
+          <ixx>0.00079209</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0025944</iyy>
+          <iyz>0</iyz>
+          <izz>0.0025558</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftFoot_collision'>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17983  0.074775  0.078509</size>
+          </box>
+        </geometry>
+        <max_contacts>4</max_contacts>
+        <surface>
+          <contact>
+            <ode>
+              <soft_erp>0.2</soft_erp>
+              <soft_cfm>0</soft_cfm>
+              <!--<kp>100000</kp>-->
+              <kp>18000000</kp>
+              <!--<kd>1</kd>-->
+              <kd>100</kd>
+              <max_vel>100</max_vel>
+              <!--<min_depth>0.001</min_depth>-->
+              <min_depth>0.0001</min_depth>
+            </ode>
+          </contact>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>100000</threshold>
+          </bounce>
+        </surface>
+      </collision>
+      <visual name='LeftFoot_visual'>
+        <pose frame=''>0.054652 0 -0.039254 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.17983  0.074775  0.078509</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <link name='LeftToe_f1'>
+      <pose relative_to='jLeftBallFoot_rotx'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftToe_f2'>
+      <pose relative_to='jLeftBallFoot_roty'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0003</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0003</iyy>
+          <iyz>0</iyz>
+          <izz>0.0003</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <link name='LeftToe'>
+      <pose relative_to='jLeftBallFoot_rotz'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <mass>0.0933</mass>
+        <inertia>
+          <ixx>4.5038e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.9717e-05</iyy>
+          <iyz>0</iyz>
+          <izz>7.1624e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='LeftToe_collision'>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.060173  0.074775  0.014191</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='LeftToe_visual'>
+        <pose frame=''>0.030086 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.060173  0.074775  0.014191</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+
+
+    <!--JOINTS-->
+    <!--Chain from (2) to (7)-->
+    <joint name='jL5S1_rotx' type='revolute'>
+      <pose relative_to='Pelvis'>-0.000206 0 0.098478 0 -0 0</pose>
+      <child>L5_f1</child>
+      <parent>Pelvis</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL5S1_roty' type='revolute'>
+      <pose relative_to='L5_f1'>0 0 0 0 -0 0</pose>
+      <child>L5_f2</child>
+      <parent>L5_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL5S1_rotz' type='revolute'>
+      <pose relative_to='L5_f2'>0 0 0 0 -0 0</pose>
+      <child>L5</child>
+      <parent>L5_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL4L3_rotx' type='revolute'>
+      <pose relative_to='L5'>0.000374 0 0.095104 0 -0 0</pose>
+      <child>L3_f1</child>
+      <parent>L5</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL4L3_roty' type='revolute'>
+      <pose relative_to='L3_f1'>0 0 0 0 -0 0</pose>
+      <child>L3_f2</child>
+      <parent>L3_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL4L3_rotz' type='revolute'>
+      <pose relative_to='L3_f2'>0 0 0 0 -0 0</pose>
+      <child>L3</child>
+      <parent>L3_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL1T12_rotx' type='revolute'>
+      <pose relative_to='L3'>0 0 0.085916 0 -0 0</pose>
+      <child>T12_f1</child>
+      <parent>L3</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL1T12_roty' type='revolute'>
+      <pose relative_to='T12_f1'>0 0 0 0 -0 0</pose>
+      <child>T12_f2</child>
+      <parent>T12_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jL1T12_rotz' type='revolute'>
+      <pose relative_to='T12_f2'>0 0 0 0 -0 0</pose>
+      <child>T12</child>
+      <parent>T12_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jT9T8_rotx' type='revolute'>
+      <pose relative_to='T12'>0 0 0.085916 0 -0 0</pose>
+      <child>T8_f1</child>
+      <parent>T12</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jT9T8_roty' type='revolute'>
+      <pose relative_to='T8_f1'>0 0 0 0 -0 0</pose>
+      <child>T8_f2</child>
+      <parent>T8_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.261799</lower>
+          <upper>0.872665</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jT9T8_rotz' type='revolute'>
+      <pose relative_to='T8_f2'>0 0 0 0 -0 0</pose>
+      <child>T8</child>
+      <parent>T8_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.610865</lower>
+          <upper>0.610865</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>    
+    <joint name='jT1C7_rotx' type='revolute'>
+      <pose relative_to='T8'>0 0 0.11975 0 -0 0</pose>
+      <child>Neck_f1</child>
+      <parent>T8</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jT1C7_roty' type='revolute'>
+      <pose relative_to='Neck_f1'>0 0 0 0 -0 0</pose>
+      <child>Neck_f2</child>
+      <parent>Neck_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jT1C7_rotz' type='revolute'>
+      <pose relative_to='Neck_f2'>0 0 0 0 -0 0</pose>
+      <child>Neck</child>
+      <parent>Neck_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jC1Head_rotx' type='revolute'>
+      <pose relative_to='Neck'>0.000152 0 0.089252 0 -0 0</pose>
+      <child>Head_f1</child>
+      <parent>Neck</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jC1Head_roty' type='revolute'>
+      <pose relative_to='Head_f1'>0 0 0 0 -0 0</pose>
+      <child>Head_f2</child>
+      <parent>Head_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jC1Head_rotz' type='revolute'>
+      <pose relative_to='Head_f2'>0 0 0 0 -0 0</pose>
+      <child>Head</child>
+      <parent>Head_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+
+
+    <!--Chain from (8) to (11)-->
+    <joint name='jRightC7Shoulder_rotx' type='revolute'>
+      <pose relative_to='T8'>0 -0.026313 0.067052 0 -0 0</pose>
+      <child>RightShoulder_f1</child>
+      <parent>T8</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightC7Shoulder_roty' type='revolute'>
+      <pose relative_to='RightShoulder_f1'>0 0 0 0 -0 0</pose>
+      <child>RightShoulder_f2</child>
+      <parent>RightShoulder_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightC7Shoulder_rotz' type='revolute'>
+      <pose relative_to='RightShoulder_f2'>0 0 0 0 -0 0</pose>
+      <child>RightShoulder</child>
+      <parent>RightShoulder_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.0872665</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightShoulder_rotx' type='revolute'>
+      <pose relative_to='RightShoulder'>0 -0.13047 0 1.57 -0 0</pose>
+      <child>RightUpperArm_f1</child>
+      <parent>RightShoulder</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-2.35619</lower>
+          <upper>1.5708</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightShoulder_roty' type='revolute'>
+      <pose relative_to='RightUpperArm_f1'>0 0 0 0 -0 0</pose>
+      <child>RightUpperArm_f2</child>
+      <parent>RightUpperArm_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5708</lower>
+          <upper>1.5708</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightShoulder_rotz' type='revolute'>
+      <pose relative_to='RightUpperArm_f2'>0 0 0 0 -0 0</pose>
+      <child>RightUpperArm</child>
+      <parent>RightUpperArm_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>3.14159</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightElbow_rotx' type='revolute'>
+      <pose relative_to='RightUpperArm'>0 -0.26994 0 0 -0 0</pose>
+      <child>RightForeArm_f1</child>
+      <parent>RightUpperArm</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightElbow_roty' type='revolute'>
+      <pose relative_to='RightForeArm_f1'>0 0 0 0 -0 0</pose>
+      <child>RightForeArm_f2</child>
+      <parent>RightForeArm_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5708</lower>
+          <upper>1.48353</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightElbow_rotz' type='revolute'>
+      <pose relative_to='RightForeArm_f2'>0 0 0 0 -0 0</pose>
+      <child>RightForeArm</child>
+      <parent>RightForeArm_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>2.53073</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightWrist_rotx' type='revolute'>
+      <pose relative_to='RightForeArm'>7.7e-05 -0.22247 0 0 -0 0</pose>
+      <child>RightHand_f1</child>
+      <parent>RightForeArm</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.872665</lower>
+          <upper>1.0472</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightWrist_roty' type='revolute'>
+      <pose relative_to='RightHand_f1'>0 0 0 0 -0 0</pose>
+      <child>RightHand_f2</child>
+      <parent>RightHand_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightWrist_rotz' type='revolute'>
+      <pose relative_to='RightHand_f2'>0 0 0 0 -0 0</pose>
+      <child>RightHand</child>
+      <parent>RightHand_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14</lower>
+          <upper>3.14</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+
+
+    <!--Chain from (12) to (15)-->
+    <joint name='jLeftC7Shoulder_rotx' type='revolute'>
+      <pose relative_to='T8'>0 0.026313 0.067052 0 -0 0</pose>
+      <child>LeftShoulder_f1</child>
+      <parent>T8</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftC7Shoulder_roty' type='revolute'>
+      <pose relative_to='LeftShoulder_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftShoulder_f2</child>
+      <parent>LeftShoulder_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftC7Shoulder_rotz' type='revolute'>
+      <pose relative_to='LeftShoulder_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftShoulder</child>
+      <parent>LeftShoulder_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.0872665</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftShoulder_rotx' type='revolute'>
+      <pose relative_to='LeftShoulder'>0 0.13047 0 -1.57 -0 0</pose>
+      <child>LeftUpperArm_f1</child>
+      <parent>LeftShoulder</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5708</lower>
+          <upper>2.35619</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftShoulder_roty' type='revolute'>
+      <pose relative_to='LeftUpperArm_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftUpperArm_f2</child>
+      <parent>LeftUpperArm_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5708</lower>
+          <upper>1.5708</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftShoulder_rotz' type='revolute'>
+      <pose relative_to='LeftUpperArm_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftUpperArm</child>
+      <parent>LeftUpperArm_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14159</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftElbow_rotx' type='revolute'>
+      <pose relative_to='LeftUpperArm'>0 0.26994 0 0 -0 0</pose>
+      <child>LeftForeArm_f1</child>
+      <parent>LeftUpperArm</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftElbow_roty' type='revolute'>
+      <pose relative_to='LeftForeArm_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftForeArm_f2</child>
+      <parent>LeftForeArm_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5708</lower>
+          <upper>1.48353</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftElbow_rotz' type='revolute'>
+      <pose relative_to='LeftForeArm_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftForeArm</child>
+      <parent>LeftForeArm_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-2.53073</lower>
+          <upper>0</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftWrist_rotx' type='revolute'>
+      <pose relative_to='LeftForeArm'>7.7e-05 0.22247 0 0 -0 0</pose>
+      <child>LeftHand_f1</child>
+      <parent>LeftForeArm</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.0472</lower>
+          <upper>0.872665</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftWrist_roty' type='revolute'>
+      <pose relative_to='LeftHand_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftHand_f2</child>
+      <parent>LeftHand_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftWrist_rotz' type='revolute'>
+      <pose relative_to='LeftHand_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftHand</child>
+      <parent>LeftHand_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14</lower>
+          <upper>3.14</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+
+
+    <!--Chain from (16) to (19)-->
+    <joint name='jRightHip_rotx' type='revolute'>
+      <pose relative_to='Pelvis'>0.000103 -0.081614 0.001009 0 -0 0</pose>
+      <child>RightUpperLeg_f1</child>
+      <parent>Pelvis</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.523599</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightHip_roty' type='revolute'>
+      <pose relative_to='RightUpperLeg_f1'>0 0 0 0 -0 0</pose>
+      <child>RightUpperLeg_f2</child>
+      <parent>RightUpperLeg_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.261799</lower>
+          <upper>2.0944</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightHip_rotz' type='revolute'>
+      <pose relative_to='RightUpperLeg_f2'>0 0 0 0 -0 0</pose>
+      <child>RightUpperLeg</child>
+      <parent>RightUpperLeg_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightKnee_rotx' type='revolute'>
+      <pose relative_to='RightUpperLeg'>3.6e-05 0 -0.44898 0 -0 0</pose>
+      <child>RightLowerLeg_f1</child>
+      <parent>RightUpperLeg</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightKnee_roty' type='revolute'>
+      <pose relative_to='RightLowerLeg_f1'>0 0 0 0 -0 0</pose>
+      <child>RightLowerLeg_f2</child>
+      <parent>RightLowerLeg_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>2.35619</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightKnee_rotz' type='revolute'>
+      <pose relative_to='RightLowerLeg_f2'>0 0 0 0 -0 0</pose>
+      <child>RightLowerLeg</child>
+      <parent>RightLowerLeg_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.698132</lower>
+          <upper>0.523599</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightAnkle_rotx' type='revolute'>
+      <pose relative_to='RightLowerLeg'>0.000205 0 -0.40608 0 -0 0</pose>
+      <child>RightFoot_f1</child>
+      <parent>RightLowerLeg</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.610865</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightAnkle_roty' type='revolute'>
+      <pose relative_to='RightFoot_f1'>0 0 0 0 -0 0</pose>
+      <child>RightFoot_f2</child>
+      <parent>RightFoot_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.523599</lower>
+          <upper>0.872665</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightAnkle_rotz' type='revolute'>
+      <pose relative_to='RightFoot_f2'>0 0 0 0 -0 0</pose>
+      <child>RightFoot</child>
+      <parent>RightFoot_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.436332</lower>
+          <upper>0.872665</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightBallFoot_rotx' type='revolute'>
+      <pose relative_to='RightFoot'>0.14456 0 -0.064752 0 -0 0</pose>
+      <child>RightToe_f1</child>
+      <parent>RightFoot</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightBallFoot_roty' type='revolute'>
+      <pose relative_to='RightToe_f1'>0 0 0 0 -0 0</pose>
+      <child>RightToe_f2</child>
+      <parent>RightToe_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jRightBallFoot_rotz' type='revolute'>
+    <pose relative_to='RightToe_f2'>0 0 0 0 -0 0</pose>
+      <child>RightToe</child>
+      <parent>RightToe_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+
+    <!--Chain from (20) to (23)-->
+    <joint name='jLeftHip_rotx' type='revolute'>
+      <pose relative_to='Pelvis'>0.000103 0.081614 0.001009 0 -0 0</pose>
+      <child>LeftUpperLeg_f1</child>
+      <parent>Pelvis</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.523599</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftHip_roty' type='revolute'>
+      <pose relative_to='LeftUpperLeg_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftUpperLeg_f2</child>
+      <parent>LeftUpperLeg_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.261799</lower>
+          <upper>2.0944</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftHip_rotz' type='revolute'>
+      <pose relative_to='LeftUpperLeg_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftUpperLeg</child>
+      <parent>LeftUpperLeg_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftKnee_rotx' type='revolute'>
+      <pose relative_to='LeftUpperLeg'>3.6e-05 0 -0.44898 0 -0 0</pose>
+      <child>LeftLowerLeg_f1</child>
+      <parent>LeftUpperLeg</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftKnee_roty' type='revolute'>
+      <pose relative_to='LeftLowerLeg_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftLowerLeg_f2</child>
+      <parent>LeftLowerLeg_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>2.35619</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftKnee_rotz' type='revolute'>
+      <pose relative_to='LeftLowerLeg_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftLowerLeg</child>
+      <parent>LeftLowerLeg_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.523599</lower>
+          <upper>0.698132</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftAnkle_rotx' type='revolute'>
+      <pose relative_to='LeftLowerLeg'>0.000205 0 -0.40608 0 -0 0</pose>
+      <child>LeftFoot_f1</child>
+      <parent>LeftLowerLeg</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.610865</lower>
+          <upper>0.785398</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftAnkle_roty' type='revolute'>
+      <pose relative_to='LeftFoot_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftFoot_f2</child>
+      <parent>LeftFoot_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.523599</lower>
+          <upper>0.872665</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftAnkle_rotz' type='revolute'>
+      <pose relative_to='LeftFoot_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftFoot</child>
+      <parent>LeftFoot_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.872665</lower>
+          <upper>0.436332</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftBallFoot_rotx' type='revolute'>
+      <pose relative_to='LeftFoot'>0.14456 0 -0.064752 0 -0 0</pose>
+      <child>LeftToe_f1</child>
+      <parent>LeftFoot</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftBallFoot_roty' type='revolute'>
+      <pose relative_to='LeftToe_f1'>0 0 0 0 -0 0</pose>
+      <child>LeftToe_f2</child>
+      <parent>LeftToe_f1</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+    <joint name='jLeftBallFoot_rotz' type='revolute'>
+      <pose relative_to='LeftToe_f2'>0 0 0 0 -0 0</pose>
+      <child>LeftToe</child>
+      <parent>LeftToe_f2</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.174533</lower>
+          <upper>0.174533</upper>
+          <effort>30</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>2.5</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+        <use_parent_model_frame>1</use_parent_model_frame>
+      </axis>
+    </joint>
+
+
+    <!--Gazebo yarp plugins-->
+    <plugin name='controlboard_head' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_head.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_neck' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_neck.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_torso_1' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_1.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_torso_2' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_2.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_torso_3' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_3.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_torso_4' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_4.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_shoulder_internal' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_shoulder_internal.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_shoulder' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_shoulder.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_elbow' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_elbow.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_wrist' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_wrist.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_shoulder_internal' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_shoulder_internal.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_shoulder' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_shoulder.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_elbow' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_elbow.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_wrist' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_wrist.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_hip' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_hip.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_knee' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_knee.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_ankle' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_ankle.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_left_ball_foot' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_ball_foot.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_hip' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_hip.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_knee' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_knee.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_ankle' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_ankle.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='controlboard_right_ball_foot' filename='libgazebo_yarp_controlboard.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_ball_foot.ini</yarpConfigurationFile>
+    </plugin>
+    <plugin name='link_attacher' filename='libgazebo_yarp_linkattacher.so'>
+      <yarpConfigurationFile>model://humanSubject01_66dof/conf/linkattacher.ini</yarpConfigurationFile>
+    </plugin>
+  </model>
+</sdf>
