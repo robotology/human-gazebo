@@ -1048,7 +1048,7 @@
         <parent link="RightUpperLeg_f1"/>
         <child link="RightUpperLeg_f2"/>
         <dynamics damping="0.1" friction="0.0"/>
-        <limit effort="30" velocity="1.0" lower="2.0944" upper="-0.261799" />
+        <limit effort="30" velocity="1.0" lower="-2.0944" upper="0.261799" />
         <axis xyz="0 1 0" />
     </joint>
     <joint name="jRightHip_rotz" type="revolute">
@@ -1121,7 +1121,7 @@
         <parent link="LeftUpperLeg_f1"/>
         <child link="LeftUpperLeg_f2"/>
         <dynamics damping="0.1" friction="0.0"/>
-        <limit effort="30" velocity="1.0" lower="2.0944" upper="-0.261799" />
+        <limit effort="30" velocity="1.0" lower="-2.0944" upper="0.261799" />
         <axis xyz="0 1 0" />
     </joint>
     <joint name="jLeftHip_rotz" type="revolute">
