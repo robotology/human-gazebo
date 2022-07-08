@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.sdf": "xml",
+        "*.ini": "ruby",
+        "array": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
+}

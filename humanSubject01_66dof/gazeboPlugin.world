@@ -1,0 +1,26 @@
+<!-- /* Copyright 2019 The MathWorks, Inc. -->
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <world name="default">
+        <physics type="ode">
+            <max_step_size>0.0001</max_step_size>
+        </physics>
+
+
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <!--include>
+            <uri>model://humanSubject01_66dof.sdf</uri>
+        </include-->
+
+        <plugin name="GazeboPlugin" filename="lib/libGazeboCoSimPlugin.so">
+            <portNumber>14581</portNumber>
+        </plugin>
+    </world>
+</sdf>

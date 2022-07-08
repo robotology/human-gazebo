@@ -1,5 +1,5 @@
 <sdf version='1.6'>
-  <model name='humanSubject01_66dof'>
+  <model name='humanSubject01_fixed'>
     <pose>0 0 0.9325 0 0 0</pose>
     <!--Link base (1)-->
     <link name='Pelvis'>
@@ -42,7 +42,7 @@
       <pose relative_to='jL5S1_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -57,7 +57,7 @@
       <pose relative_to='jL5S1_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -107,7 +107,7 @@
       <pose relative_to='jL4L3_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -122,7 +122,7 @@
       <pose relative_to='jL4L3_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -168,7 +168,7 @@
       <pose relative_to='jL1T12_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -183,7 +183,7 @@
       <pose relative_to='jL1T12_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -229,7 +229,7 @@
       <pose relative_to='jT9T8_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -244,7 +244,7 @@
       <pose relative_to='jT9T8_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -290,7 +290,7 @@
       <pose relative_to='jT1C7_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -305,7 +305,7 @@
       <pose relative_to='jT1C7_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -353,7 +353,7 @@
       <pose relative_to='jC1Head_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -368,7 +368,7 @@
       <pose relative_to='jC1Head_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -417,7 +417,7 @@
       <pose relative_to='jRightC7Shoulder_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -432,7 +432,7 @@
       <pose relative_to='jRightC7Shoulder_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -480,7 +480,7 @@
       <pose relative_to='jRightShoulder_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -495,7 +495,7 @@
       <pose relative_to='jRightShoulder_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -543,7 +543,7 @@
       <pose relative_to='jRightElbow_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -558,7 +558,7 @@
       <pose relative_to='jRightElbow_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -606,7 +606,7 @@
       <pose relative_to='jRightWrist_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -621,7 +621,7 @@
       <pose relative_to='jRightWrist_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -670,7 +670,7 @@
       <pose relative_to='jLeftC7Shoulder_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -685,7 +685,7 @@
       <pose relative_to='jLeftC7Shoulder_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -733,7 +733,7 @@
       <pose relative_to='jLeftShoulder_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -745,10 +745,10 @@
       </inertial>
     </link>
     <link name='LeftUpperArm_f2'>
-      <pose relative_to='jLeftShoulder_roty'>0 0 0 0 -0 0</pose>
+      <pose relative_to='jLeftShoulder_roty'>0 0 0 0 0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -760,7 +760,7 @@
       </inertial>
     </link>
     <link name='LeftUpperArm'>
-      <pose relative_to='jLeftShoulder_rotz'>0 0 0 0 -0 0</pose>
+      <pose relative_to='jLeftShoulder_rotz'>0 0 0 0 0 0</pose>
       <inertial>
         <pose frame=''>0 0.13497 0 0 -0 0</pose>
         <mass>1.866</mass>
@@ -796,7 +796,7 @@
       <pose relative_to='jLeftElbow_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -811,7 +811,7 @@
       <pose relative_to='jLeftElbow_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -859,7 +859,7 @@
       <pose relative_to='jLeftWrist_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -874,7 +874,7 @@
       <pose relative_to='jLeftWrist_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -923,7 +923,7 @@
       <pose relative_to='jRightHip_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -938,7 +938,7 @@
       <pose relative_to='jRightHip_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -986,7 +986,7 @@
       <pose relative_to='jRightKnee_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1001,7 +1001,7 @@
       <pose relative_to='jRightKnee_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1049,7 +1049,7 @@
       <pose relative_to='jRightAnkle_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1064,7 +1064,7 @@
       <pose relative_to='jRightAnkle_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1139,7 +1139,7 @@
       <pose relative_to='jRightBallFoot_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1154,7 +1154,7 @@
       <pose relative_to='jRightBallFoot_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1203,7 +1203,7 @@
       <pose relative_to='jLeftHip_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1218,7 +1218,7 @@
       <pose relative_to='jLeftHip_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1266,7 +1266,7 @@
       <pose relative_to='jLeftKnee_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1281,7 +1281,7 @@
       <pose relative_to='jLeftKnee_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1329,7 +1329,7 @@
       <pose relative_to='jLeftAnkle_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1344,7 +1344,7 @@
       <pose relative_to='jLeftAnkle_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1419,7 +1419,7 @@
       <pose relative_to='jLeftBallFoot_rotx'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1434,7 +1434,7 @@
       <pose relative_to='jLeftBallFoot_roty'>0 0 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-        <mass>0.01</mass>
+        <mass>0.001</mass>
         <inertia>
           <ixx>0.0003</ixx>
           <ixy>0</ixy>
@@ -1480,20 +1480,20 @@
 
     <!--JOINTS-->
     <!--Chain from (2) to (7)-->
-    <joint name='jL5S1_rotx' type='revolute'>
+    <joint name='jL5S1_rotx' type='fixed'>
       <pose relative_to='Pelvis'>-0.000206 0 0.098478 0 -0 0</pose>
       <child>L5_f1</child>
       <parent>Pelvis</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-1.57</lower>
-          <upper>1.57</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1501,20 +1501,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jL5S1_roty' type='revolute'>
+    <joint name='jL5S1_roty' type='fixed'>
       <pose relative_to='L5_f1'>0 0 0 0 -0 0</pose>
       <child>L5_f2</child>
       <parent>L5_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-1.57</lower>
-          <upper>1.57</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1522,20 +1522,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jL5S1_rotz' type='revolute'>
+    <joint name='jL5S1_rotz' type='fixed'>
       <pose relative_to='L5_f2'>0 0 0 0 -0 0</pose>
       <child>L5</child>
       <parent>L5_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-1.57</lower>
-          <upper>1.57</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1550,13 +1550,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1571,13 +1571,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1592,13 +1592,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1613,13 +1613,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1634,13 +1634,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1655,13 +1655,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1676,13 +1676,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1697,13 +1697,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.872665</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1718,13 +1718,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.610865</lower>
-          <upper>0.610865</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1739,13 +1739,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1760,13 +1760,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1781,13 +1781,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1802,13 +1802,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1823,13 +1823,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1844,13 +1844,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1868,13 +1868,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1889,13 +1889,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1910,13 +1910,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1931,13 +1931,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-2.35619</lower>
-          <upper>1.5708</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1952,13 +1952,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-1.5708</lower>
-          <upper>1.5708</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1973,13 +1973,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.785398</lower>
-          <upper>3.14159</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -1994,13 +1994,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2015,13 +2015,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-1.5708</lower>
-          <upper>1.48353</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2037,12 +2037,12 @@
         <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
-          <upper>2.53073</upper>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2057,13 +2057,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.872665</lower>
-          <upper>1.0472</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2078,13 +2078,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2099,13 +2099,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2123,13 +2123,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2144,13 +2144,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2165,13 +2165,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2261,13 +2261,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2282,13 +2282,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-1.5708</lower>
-          <upper>1.48353</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2303,13 +2303,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-2.53073</lower>
-          <upper>0</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2324,13 +2324,13 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-1.0472</lower>
-          <upper>0.872665</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2345,13 +2345,13 @@
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2366,13 +2366,13 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-3.14</lower>
-          <upper>3.14</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2383,20 +2383,20 @@
 
 
     <!--Chain from (16) to (19)-->
-    <joint name='jRightHip_rotx' type='revolute'>
+    <joint name='jRightHip_rotx' type='fixed'>
       <pose relative_to='Pelvis'>0.000103 -0.081614 0.001009 0 -0 0</pose>
       <child>RightUpperLeg_f1</child>
       <parent>Pelvis</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2404,20 +2404,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightHip_roty' type='revolute'>
+    <joint name='jRightHip_roty' type='fixed'>
       <pose relative_to='RightUpperLeg_f1'>0 0 0 0 -0 0</pose>
       <child>RightUpperLeg_f2</child>
       <parent>RightUpperLeg_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>2.0944</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2425,20 +2425,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightHip_rotz' type='revolute'>
+    <joint name='jRightHip_rotz' type='fixed'>
       <pose relative_to='RightUpperLeg_f2'>0 0 0 0 -0 0</pose>
       <child>RightUpperLeg</child>
       <parent>RightUpperLeg_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.785398</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2446,20 +2446,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightKnee_rotx' type='revolute'>
+    <joint name='jRightKnee_rotx' type='fixed'>
       <pose relative_to='RightUpperLeg'>3.6e-05 0 -0.44898 0 -0 0</pose>
       <child>RightLowerLeg_f1</child>
       <parent>RightUpperLeg</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2467,7 +2467,7 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightKnee_roty' type='revolute'>
+    <joint name='jRightKnee_roty' type='fixed'>
       <pose relative_to='RightLowerLeg_f1'>0 0 0 0 -0 0</pose>
       <child>RightLowerLeg_f2</child>
       <parent>RightLowerLeg_f1</parent>
@@ -2475,12 +2475,12 @@
         <xyz>0 1 0</xyz>
         <limit>
           <lower>0</lower>
-          <upper>2.35619</upper>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2488,20 +2488,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightKnee_rotz' type='revolute'>
+    <joint name='jRightKnee_rotz' type='fixed'>
       <pose relative_to='RightLowerLeg_f2'>0 0 0 0 -0 0</pose>
       <child>RightLowerLeg</child>
       <parent>RightLowerLeg_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.698132</lower>
-          <upper>0.523599</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2509,20 +2509,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightAnkle_rotx' type='revolute'>
+    <joint name='jRightAnkle_rotx' type='fixed'>
       <pose relative_to='RightLowerLeg'>0.000205 0 -0.40608 0 -0 0</pose>
       <child>RightFoot_f1</child>
       <parent>RightLowerLeg</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.610865</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2530,20 +2530,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightAnkle_roty' type='revolute'>
+    <joint name='jRightAnkle_roty' type='fixed'>
       <pose relative_to='RightFoot_f1'>0 0 0 0 -0 0</pose>
       <child>RightFoot_f2</child>
       <parent>RightFoot_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>0.872665</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2551,20 +2551,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightAnkle_rotz' type='revolute'>
+    <joint name='jRightAnkle_rotz' type='fixed'>
       <pose relative_to='RightFoot_f2'>0 0 0 0 -0 0</pose>
       <child>RightFoot</child>
       <parent>RightFoot_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.436332</lower>
-          <upper>0.872665</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2572,20 +2572,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightBallFoot_rotx' type='revolute'>
+    <joint name='jRightBallFoot_rotx' type='fixed'>
       <pose relative_to='RightFoot'>0.14456 0 -0.064752 0 -0 0</pose>
       <child>RightToe_f1</child>
       <parent>RightFoot</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2593,20 +2593,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightBallFoot_roty' type='revolute'>
+    <joint name='jRightBallFoot_roty' type='fixed'>
       <pose relative_to='RightToe_f1'>0 0 0 0 -0 0</pose>
       <child>RightToe_f2</child>
       <parent>RightToe_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2614,20 +2614,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jRightBallFoot_rotz' type='revolute'>
+    <joint name='jRightBallFoot_rotz' type='fixed'>
       <pose relative_to='RightToe_f2'>0 0 0 0 -0 0</pose>
       <child>RightToe</child>
       <parent>RightToe_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2637,20 +2637,20 @@
     </joint>
 
     <!--Chain from (20) to (23)-->
-    <joint name='jLeftHip_rotx' type='revolute'>
+    <joint name='jLeftHip_rotx' type='fixed'>
       <pose relative_to='Pelvis'>0.000103 0.081614 0.001009 0 -0 0</pose>
       <child>LeftUpperLeg_f1</child>
       <parent>Pelvis</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2658,20 +2658,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftHip_roty' type='revolute'>
+    <joint name='jLeftHip_roty' type='fixed'>
       <pose relative_to='LeftUpperLeg_f1'>0 0 0 0 -0 0</pose>
       <child>LeftUpperLeg_f2</child>
       <parent>LeftUpperLeg_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>2.0944</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2679,20 +2679,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftHip_rotz' type='revolute'>
+    <joint name='jLeftHip_rotz' type='fixed'>
       <pose relative_to='LeftUpperLeg_f2'>0 0 0 0 -0 0</pose>
       <child>LeftUpperLeg</child>
       <parent>LeftUpperLeg_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.785398</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2700,20 +2700,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftKnee_rotx' type='revolute'>
+    <joint name='jLeftKnee_rotx' type='fixed'>
       <pose relative_to='LeftUpperLeg'>3.6e-05 0 -0.44898 0 -0 0</pose>
       <child>LeftLowerLeg_f1</child>
       <parent>LeftUpperLeg</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2721,7 +2721,7 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftKnee_roty' type='revolute'>
+    <joint name='jLeftKnee_roty' type='fixed'>
       <pose relative_to='LeftLowerLeg_f1'>0 0 0 0 -0 0</pose>
       <child>LeftLowerLeg_f2</child>
       <parent>LeftLowerLeg_f1</parent>
@@ -2729,12 +2729,12 @@
         <xyz>0 1 0</xyz>
         <limit>
           <lower>0</lower>
-          <upper>2.35619</upper>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2742,20 +2742,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftKnee_rotz' type='revolute'>
+    <joint name='jLeftKnee_rotz' type='fixed'>
       <pose relative_to='LeftLowerLeg_f2'>0 0 0 0 -0 0</pose>
       <child>LeftLowerLeg</child>
       <parent>LeftLowerLeg_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>0.698132</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2763,20 +2763,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftAnkle_rotx' type='revolute'>
+    <joint name='jLeftAnkle_rotx' type='fixed'>
       <pose relative_to='LeftLowerLeg'>0.000205 0 -0.40608 0 -0 0</pose>
       <child>LeftFoot_f1</child>
       <parent>LeftLowerLeg</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.610865</lower>
-          <upper>0.785398</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2784,20 +2784,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftAnkle_roty' type='revolute'>
+    <joint name='jLeftAnkle_roty' type='fixed'>
       <pose relative_to='LeftFoot_f1'>0 0 0 0 -0 0</pose>
       <child>LeftFoot_f2</child>
       <parent>LeftFoot_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.523599</lower>
-          <upper>0.872665</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2805,20 +2805,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftAnkle_rotz' type='revolute'>
+    <joint name='jLeftAnkle_rotz' type='fixed'>
       <pose relative_to='LeftFoot_f2'>0 0 0 0 -0 0</pose>
       <child>LeftFoot</child>
       <parent>LeftFoot_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.872665</lower>
-          <upper>0.436332</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2826,20 +2826,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftBallFoot_rotx' type='revolute'>
+    <joint name='jLeftBallFoot_rotx' type='fixed'>
       <pose relative_to='LeftFoot'>0.14456 0 -0.064752 0 -0 0</pose>
       <child>LeftToe_f1</child>
       <parent>LeftFoot</parent>
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2847,20 +2847,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftBallFoot_roty' type='revolute'>
+    <joint name='jLeftBallFoot_roty' type='fixed'>
       <pose relative_to='LeftToe_f1'>0 0 0 0 -0 0</pose>
       <child>LeftToe_f2</child>
       <parent>LeftToe_f1</parent>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2868,20 +2868,20 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    <joint name='jLeftBallFoot_rotz' type='revolute'>
+    <joint name='jLeftBallFoot_rotz' type='fixed'>
       <pose relative_to='LeftToe_f2'>0 0 0 0 -0 0</pose>
       <child>LeftToe</child>
       <parent>LeftToe_f2</parent>
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-0.174533</lower>
-          <upper>0.174533</upper>
+          <lower>-10.0</lower>
+          <upper>10.0</upper>
           <effort>30</effort>
           <velocity>1</velocity>
         </limit>
         <dynamics>
-          <damping>3.0</damping>
+          <damping>3</damping>
           <friction>0</friction>
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
@@ -2889,8 +2889,8 @@
         <use_parent_model_frame>1</use_parent_model_frame>
       </axis>
     </joint>
-    
-    <!--Fixed Foot
+
+    <!--Fixed Foot-->
     <joint name="fixed_left" type="fixed">
       <parent>world</parent>
       <child>LeftFoot</child>
@@ -2900,7 +2900,7 @@
       <parent>world</parent>
       <child>RightFoot</child>
     </joint>
-    -->
+
     <!--Gazebo yarp FT sensors -0.02944 -->
     <link name='ft_sensor'>
       <pose relative_to='LeftUpperArm'> 0 0.13497 0 0 0 0</pose>
@@ -2976,79 +2976,52 @@
 
     <!--Gazebo yarp plugins-->
     <plugin name='controlboard_head' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_head.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_head.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_neck' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_neck.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_neck.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_torso_1' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_1.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_torso_1.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_torso_2' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_2.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_torso_2.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_torso_3' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_3.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_torso_4' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_torso_4.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_torso_3.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_left_shoulder_internal' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_shoulder_internal.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_left_shoulder_internal.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_left_shoulder' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_shoulder.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_left_shoulder.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_left_elbow' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_elbow.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_left_elbow.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_left_wrist' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_wrist.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_left_wrist.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_right_shoulder_internal' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_shoulder_internal.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_right_shoulder_internal.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_right_shoulder' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_shoulder.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_right_shoulder.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_right_elbow' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_elbow.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_right_elbow.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='controlboard_right_wrist' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_wrist.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_left_hip' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_hip.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_left_knee' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_knee.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_left_ankle' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_ankle.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_left_ball_foot' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_left_ball_foot.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_right_hip' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_hip.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_right_knee' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_knee.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_right_ankle' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_ankle.ini</yarpConfigurationFile>
-    </plugin>
-    <plugin name='controlboard_right_ball_foot' filename='libgazebo_yarp_controlboard.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/gazebo_sub0_right_ball_foot.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/gazebo_sub0_right_wrist.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='link_attacher' filename='libgazebo_yarp_linkattacher.so'>
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/linkattacher.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/linkattacher.ini</yarpConfigurationFile>
     </plugin>
     <plugin name='apply_external_wrench' filename='libgazebo_yarp_externalwrench.so'>
-      <robotNamefromConfigFile>model://humanSubject01_66dof/conf/gazebo_sub0_robotname.ini</robotNamefromConfigFile>
+      <robotNamefromConfigFile>model://humanSubject01_fixed/conf/gazebo_sub0_robotname.ini</robotNamefromConfigFile>
     </plugin>
     <plugin name="force-plugin" filename="libforce-plugin.so">
-      <yarpConfigurationFile>model://humanSubject01_66dof/conf/jets.ini</yarpConfigurationFile>
+      <yarpConfigurationFile>model://humanSubject01_fixed/conf/jets.ini</yarpConfigurationFile>
     </plugin>
   </model>
 </sdf>
