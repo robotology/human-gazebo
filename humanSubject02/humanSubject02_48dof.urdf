@@ -377,6 +377,21 @@
         </collision>
 
     </link>
+    <link name="RightHandCOM">
+        <inertial>
+            <mass value="0.00001"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0"/>
+        </inertial>
+        <visual>
+            <!--box origin wrt jRightWrist-->
+            <origin xyz="0   0           0" rpy="0 0 0" />
+            <geometry>
+                <box size="0     0    0"/>
+            </geometry>
+            <material name="color"/>
+        </visual>
+    </link>
 	<!--Chain from (12) to (15)-->
 	<link name="LeftShoulder">
         <inertial>
@@ -509,6 +524,21 @@
             </geometry>
         </collision>
 
+    </link>
+    <link name="LeftHandCOM">
+        <inertial>
+            <mass value="0.00001"/>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="0" iyy="0" izz="0" ixy="0" ixz="0" iyz="0"/>
+        </inertial>
+        <visual>
+            <!--COM origin wrt jLeftWrist-->
+            <origin xyz="0    0           0" rpy="0 0 0" />
+            <geometry>
+                <box size="0     0    0"/>
+            </geometry>
+            <material name="color"/>
+        </visual>
     </link>
 	<!--Chain from (16) to (19)-->
 	<link name="RightUpperLeg_f1">
@@ -969,6 +999,12 @@
         <limit effort="30" velocity="1.0" lower="-0.523599" upper="0.349066" />
         <axis xyz="0 0 1" />
     </joint>
+    <joint name="jRightHandCOM" type="fixed">
+        <origin xyz="0 -0.096206 0" rpy="0 0 0"/>
+        <parent link="RightHand"/>
+        <child link="RightHandCOM"/>
+        <axis xyz="0 0 0" />
+    </joint>
 	<!--Chain from (12) to (15)-->
 	<joint name="jLeftC7Shoulder_rotx" type="revolute">
         <origin xyz="0    0.027586    0.063241" rpy="0 0 0"/>
@@ -1033,6 +1069,12 @@
         <dynamics damping="0.1" friction="0.0"/>
         <limit effort="30" velocity="1.0" lower="-0.349066" upper="0.523599" />
         <axis xyz="0 0 1" />
+    </joint>
+    <joint name="jLeftHandCOM" type="fixed">
+        <origin xyz="0 0.096206 0" rpy="0 0 0"/>
+        <parent link="LeftHand"/>
+        <child link="LeftHandCOM"/>
+        <axis xyz="0 0 0" />
     </joint>
 	<!--Chain from (16) to (19)-->
 	<joint name="jRightHip_rotx" type="revolute">
