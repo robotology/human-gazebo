@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(human-gazebo
-        VERSION 1.0.1)
+        VERSION 1.1.0)
 
 set (HUMAN_GAZEBO_FILES humanSubject01/humanSubject01_66dof.urdf
                         humanSubject01/humanSubject01_48dof.urdf
