@@ -21,3 +21,7 @@ The measurements of each of the human subject are available from the table. Plea
 
 Currently, the legacy directory contains files related to joint motor control boards based on [gazebo-yarp-plugins](https://github.com/robotology/gazebo-yarp-plugins) and other configuration files needed to control the human joints.
 
+## Mantainers
+
+* Lorenzo Rapetti ([@lrapetti](https://github.com/lrapetti))
+* Riccardo Grieco ([@RiccardoGrieco](https://github.com/RiccardoGrieco))
