@@ -1050,7 +1050,7 @@
   </joint>
   <joint name="jRightShoulder_rotx" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-2.35619" upper="1.5708" />
     <parent link="RightShoulder"/>
     <child link="RightShoulder_f1"/>
     <axis xyz="1. 0. 0."/>
@@ -1058,7 +1058,7 @@
   </joint>
   <joint name="jRightShoulder_roty" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-1.5708" upper="1.5708" />
     <parent link="RightShoulder_f1"/>
     <child link="RightShoulder_f2"/>
     <axis xyz="0. 1. 0."/>
@@ -1066,7 +1066,7 @@
   </joint>
   <joint name="jRightShoulder_rotz" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-0.785398" upper="3.14159" />
     <parent link="RightShoulder_f2"/>
     <child link="RightUpperArm"/>
     <axis xyz="0. 0. 1."/>
@@ -1112,7 +1112,7 @@
   </joint>
   <joint name="jLeftShoulder_rotx" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-1.5708" upper="2.35619" />
     <parent link="LeftShoulder"/>
     <child link="LeftShoulder_f1"/>
     <axis xyz="1. 0. 0."/>
@@ -1120,7 +1120,7 @@
   </joint>
   <joint name="jLeftShoulder_roty" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-1.5708" upper="1.5708" />
     <parent link="LeftShoulder_f1"/>
     <child link="LeftShoulder_f2"/>
     <axis xyz="0. 1. 0."/>
@@ -1128,7 +1128,7 @@
   </joint>
   <joint name="jLeftShoulder_rotz" type="revolute">
     <dynamics damping="0.1" friction="0.0"/>
-    <limit effort="30.0" velocity="1.0" lower="-0.8727" upper="0.8727"/>
+    <limit effort="30" velocity="1.0" lower="-3.14159" upper="0.785398" />
     <parent link="LeftShoulder_f2"/>
     <child link="LeftUpperArm"/>
     <axis xyz="0. 0. 1."/>
