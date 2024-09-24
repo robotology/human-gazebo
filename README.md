@@ -23,5 +23,5 @@ Currently, the legacy directory contains files related to joint motor control bo
 
 ## Mantainers
 
-* Lorenzo Rapetti ([@lrapetti](https://github.com/lrapetti))
+* Davide Gorbani ([@davidegorbani](https://github.com/davidegorbani))
 * Carlotta Sartore ([@CarlottaSartore](https://github.com/CarlottaSartore))
