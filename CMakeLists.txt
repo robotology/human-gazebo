@@ -25,3 +25,13 @@ install(FILES ${HUMAN_GAZEBO_FILES} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${
 
 # Install human urdf models in HDERviz directory for ros
 install(FILES ${HUMAN_GAZEBO_FILES} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/HDERviz/urdfs)
+
+file(GLOB HUMAN_WITH_MESHES humanSubjectWithMeshes/meshes/*.stl)
+
+# Install human urdf models with meshes in human-gazebo directory
+install(FILES ${HUMAN_WITH_MESHES} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/meshes)
+
+set (HUMAN_WITH_MESHES_URDF humanSubjectWithMeshes/humanSubjectWithMesh.urdf)
+
+# Install human urdf models with meshes in human-gazebo directory
+install(FILES ${HUMAN_WITH_MESHES_URDF} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME})

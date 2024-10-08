@@ -21,6 +21,12 @@ The measurements of each of the human subject are available from the table. Plea
 
 Currently, the legacy directory contains files related to joint motor control boards based on [gazebo-yarp-plugins](https://github.com/robotology/gazebo-yarp-plugins) and other configuration files needed to control the human joints.
 
+## Human subject with meshes
+In the folder [humanSubjectWithMeshes](./humanSubjectWithMeshes) there is a `urdf` model of a human subject generated using the code in [human-model-generator](https://github.com/ami-iit/human-model-generator) with meshes  under CC-BY_SA license (https://creativecommons.org/licenses/by-sa/2.0/deed.en); all the meshes were trimmed, morphed and totally or partially reconstructed to reach the desired shape and topology. The model is shown in the following figure:
+
+![humanSubjectWithMesh](https://github.com/user-attachments/assets/dafeaf9a-3c15-4b72-a21d-4f20b1897350)
+
+
 ## Mantainers
 
 * Davide Gorbani ([@davidegorbani](https://github.com/davidegorbani))
