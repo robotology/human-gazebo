@@ -8,7 +8,7 @@
     </inertial>
     <visual name="Pelvis">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -17,7 +17,7 @@
     </visual>
     <visual name="Pelvis_RightRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_RightRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis_RightRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -26,7 +26,7 @@
     </visual>
     <visual name="Pelvis_RightErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_RightErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis_RightErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -35,7 +35,7 @@
     </visual>
     <visual name="Pelvis_LeftRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_LeftRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis_LeftRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -44,7 +44,7 @@
     </visual>
     <visual name="Pelvis_LeftErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_LeftErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis_LeftErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -53,7 +53,7 @@
     </visual>
     <visual name="Pelvis_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Pelvis_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -82,7 +82,7 @@
     </inertial>
     <visual name="L5">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -91,7 +91,7 @@
     </visual>
     <visual name="L5_LeftErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_LeftErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5_LeftErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -100,7 +100,7 @@
     </visual>
     <visual name="L5_LeftRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_LeftRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5_LeftRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -109,7 +109,7 @@
     </visual>
     <visual name="L5_RightErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_RightErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5_RightErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -118,7 +118,7 @@
     </visual>
     <visual name="L5_RightRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_RightRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5_RightRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -127,7 +127,7 @@
     </visual>
     <visual name="L5_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L5_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -156,7 +156,7 @@
     </inertial>
     <visual name="L3">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -165,7 +165,7 @@
     </visual>
     <visual name="L3_LeftErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_LeftErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3_LeftErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -174,7 +174,7 @@
     </visual>
     <visual name="L3_LeftRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_LeftRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3_LeftRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -183,7 +183,7 @@
     </visual>
     <visual name="L3_RightErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_RightErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3_RightErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -192,7 +192,7 @@
     </visual>
     <visual name="L3_RightRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_RightRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3_RightRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -201,7 +201,7 @@
     </visual>
     <visual name="L3_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/L3_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -230,7 +230,7 @@
     </inertial>
     <visual name="T12">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -239,7 +239,7 @@
     </visual>
     <visual name="T12_LeftErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_LeftErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12_LeftErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -248,7 +248,7 @@
     </visual>
     <visual name="T12_LeftRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_LeftRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12_LeftRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -257,7 +257,7 @@
     </visual>
     <visual name="T12_RightErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_RightErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12_RightErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -266,7 +266,7 @@
     </visual>
     <visual name="T12_RightRecAbd">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_RightRecAbd.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12_RightRecAbd.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -275,7 +275,7 @@
     </visual>
     <visual name="T12_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T12_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -311,7 +311,7 @@
     </inertial>
     <visual name="T8">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T8.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -320,7 +320,7 @@
     </visual>
     <visual name="T8_LeftErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_LeftErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T8_LeftErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -329,7 +329,7 @@
     </visual>
     <visual name="T8_RightErcSpin">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_RightErcSpin.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T8_RightErcSpin.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -338,7 +338,7 @@
     </visual>
     <visual name="T8_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/T8_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -388,7 +388,7 @@
     </inertial>
     <visual name="RightShoulder">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightShoulder.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightShoulder.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -410,7 +410,7 @@
     </inertial>
     <visual name="LeftShoulder">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftShoulder.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftShoulder.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -446,7 +446,7 @@
     </inertial>
     <visual name="Neck">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Neck.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Neck.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -455,7 +455,7 @@
     </visual>
     <visual name="Neck_SpinalCord">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Neck_SpinalCord.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Neck_SpinalCord.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="bone">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -484,7 +484,7 @@
     </inertial>
     <visual name="Head">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Head.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/Head.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -520,7 +520,7 @@
     </inertial>
     <visual name="RightUpperArm">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperArm.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -529,7 +529,7 @@
     </visual>
     <visual name="RightUpperArm_RightTricBrac">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm_RightTricBrac.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperArm_RightTricBrac.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -538,7 +538,7 @@
     </visual>
     <visual name="RightUpperArm_RightBicBrac">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm_RightBicBrac.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperArm_RightBicBrac.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -567,7 +567,7 @@
     </inertial>
     <visual name="RightForeArm">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightForeArm.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -576,7 +576,7 @@
     </visual>
     <visual name="RightForeArm_RightFlexCarp">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm_RightFlexCarp.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightForeArm_RightFlexCarp.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -585,7 +585,7 @@
     </visual>
     <visual name="RightForeArm_RightExtCarp">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm_RightExtCarp.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightForeArm_RightExtCarp.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -614,7 +614,7 @@
     </inertial>
     <visual name="RightHand">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightHand.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightHand.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -663,7 +663,7 @@
     </inertial>
     <visual name="LeftUpperArm">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperArm.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -672,7 +672,7 @@
     </visual>
     <visual name="LeftUpperArm_LeftTricBrac">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm_LeftTricBrac.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperArm_LeftTricBrac.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -681,7 +681,7 @@
     </visual>
     <visual name="LeftUpperArm_LeftBicBrac">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm_LeftBicBrac.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperArm_LeftBicBrac.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -710,7 +710,7 @@
     </inertial>
     <visual name="LeftForeArm">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftForeArm.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -719,7 +719,7 @@
     </visual>
     <visual name="LeftForeArm_LeftFlexCarp">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm_LeftFlexCarp.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftForeArm_LeftFlexCarp.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -728,7 +728,7 @@
     </visual>
     <visual name="LeftForeArm_LeftExtCarp">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm_LeftExtCarp.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftForeArm_LeftExtCarp.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -757,7 +757,7 @@
     </inertial>
     <visual name="LeftHand">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftHand.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftHand.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -806,7 +806,7 @@
     </inertial>
     <visual name="RightUpperLeg">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperLeg.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -815,7 +815,7 @@
     </visual>
     <visual name="RightUpperLeg_RightRecFem">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg_RightRecFem.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperLeg_RightRecFem.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -824,7 +824,7 @@
     </visual>
     <visual name="RightUpperLeg_RightBicFem">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg_RightBicFem.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightUpperLeg_RightBicFem.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -853,7 +853,7 @@
     </inertial>
     <visual name="RightLowerLeg">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightLowerLeg.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -862,7 +862,7 @@
     </visual>
     <visual name="RightLowerLeg_RightTibAnt">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightTibAnt.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightLowerLeg_RightTibAnt.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -871,7 +871,7 @@
     </visual>
     <visual name="RightLowerLeg_RightGasMed">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightGasMed.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightLowerLeg_RightGasMed.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -880,7 +880,7 @@
     </visual>
     <visual name="RightLowerLeg_RightGasLat">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightGasLat.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightLowerLeg_RightGasLat.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -916,7 +916,7 @@
     </inertial>
     <visual name="RightFoot">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightFoot.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightFoot.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -938,7 +938,7 @@
     </inertial>
     <visual name="RightToe">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightToe.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightToe.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -960,7 +960,7 @@
     </inertial>
     <visual name="RightHeel">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightHeel.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/RightHeel.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1009,7 +1009,7 @@
     </inertial>
     <visual name="LeftUpperLeg">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperLeg.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1018,7 +1018,7 @@
     </visual>
     <visual name="LeftUpperLeg_LeftRecFem">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg_LeftRecFem.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperLeg_LeftRecFem.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1027,7 +1027,7 @@
     </visual>
     <visual name="LeftUpperLeg_LeftBicFem">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg_LeftBicFem.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftUpperLeg_LeftBicFem.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1056,7 +1056,7 @@
     </inertial>
     <visual name="LeftLowerLeg">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftLowerLeg.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1065,7 +1065,7 @@
     </visual>
     <visual name="LeftLowerLeg_LeftTibAnt">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftTibAnt.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftLowerLeg_LeftTibAnt.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1074,7 +1074,7 @@
     </visual>
     <visual name="LeftLowerLeg_LeftGasMed">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftGasMed.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftLowerLeg_LeftGasMed.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1083,7 +1083,7 @@
     </visual>
     <visual name="LeftLowerLeg_LeftGasLat">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftGasLat.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftLowerLeg_LeftGasLat.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="muscle">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1119,7 +1119,7 @@
     </inertial>
     <visual name="LeftFoot">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftFoot.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftFoot.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1141,7 +1141,7 @@
     </inertial>
     <visual name="LeftToe">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftToe.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftToe.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
@@ -1163,7 +1163,7 @@
     </inertial>
     <visual name="LeftHeel">
       <geometry>
-        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftHeel.stl" scale="1. 1. 1."/>
+        <mesh filename="package://human-gazebo/meshesSpinalCord/LeftHeel.stl" scale="1. 1. 1."/>
       </geometry>
       <material name="Link">
         <color rgba="0.9922 0.8667 0.7922 1.    "/>
