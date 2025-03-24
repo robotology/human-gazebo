@@ -1,0 +1,2225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot name="HumanModel">
+  <link name="Pelvis">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="6.9797"/>
+      <inertia ixx="0.06863357540044689" ixy="0.0" ixz="0.0" iyy="0.03925570388307751" iyz="0.0" izz="0.0882690902673694"/>
+    </inertial>
+    <visual name="Pelvis">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Pelvis_RightRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_RightRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Pelvis_RightErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_RightErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Pelvis_LeftRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_LeftRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Pelvis_LeftErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_LeftErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Pelvis_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Pelvis_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.225    0.318015 0.12987 "/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="L5_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="L5">
+    <inertial>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+      <mass value="1.7169"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="L5">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L5_LeftErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_LeftErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L5_LeftRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_LeftRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L5_RightErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_RightErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L5_RightRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_RightRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L5_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L5_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.06      0.1       0.0491175"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.02455875" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="L3_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="L3">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+      <mass value="2.6196"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="L3">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L3_LeftErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_LeftErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L3_LeftRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_LeftRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L3_RightErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_RightErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L3_RightRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_RightRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="L3_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\L3_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.06     0.1      0.074925"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0374625" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="T12_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="T12">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+      <mass value="3.0621"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="T12">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T12_LeftErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_LeftErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T12_LeftRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_LeftRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T12_RightErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_RightErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T12_RightRecAbd">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_RightRecAbd.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T12_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T12_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.06     0.1      0.087579"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0437895" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="T8_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="T8_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="T8">
+    <inertial>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+      <mass value="4.8262"/>
+      <inertia ixx="0.015972506708744665" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="T8">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T8_LeftErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_LeftErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T8_RightErcSpin">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_RightErcSpin.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="T8_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\T8_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.06      0.143745  0.1380285"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.06901425" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="C7Right_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="C7Right_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="C7Left_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="C7Left_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightShoulder">
+    <inertial>
+      <origin xyz="0.0 -0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="3.0857"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightShoulder">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightShoulder.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04617834395" length="0.143745"/>
+      </geometry>
+      <origin xyz="0.0 -0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftShoulder">
+    <inertial>
+      <origin xyz="0.0 0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="3.0857"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftShoulder">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftShoulder.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04617834395" length="0.143745"/>
+      </geometry>
+      <origin xyz="0.0 0.0718725 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="Neck_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="Neck_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="Neck">
+    <inertial>
+      <origin xyz="0.0 0.0 0.04329" rpy="0.0 0.0 0.0"/>
+      <mass value="1.1446"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="Neck">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Neck.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.04329" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="Neck_SpinalCord">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Neck_SpinalCord.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="bone">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.04329" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05015923565" length="0.08658"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.04329" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="Head_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="Head">
+    <inertial>
+      <origin xyz="0.0 0.0 0.108225" rpy="0.0 0.0 0.0"/>
+      <mass value="2.8733"/>
+      <inertia ixx="0.013461583616325" ixy="0.0" ixz="0.0" iyy="0.013461583616325" iyz="0.0" izz="0.013461583616325"/>
+    </inertial>
+    <visual name="Head">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\Head.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.108225" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.108225"/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.108225" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightShoulder_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightShoulder_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightUpperArm">
+    <inertial>
+      <origin xyz="0.0 -0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="1.5517"/>
+      <inertia ixx="0.013228916771824981" ixy="0.0" ixz="0.0" iyy="0.013228916771824981" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightUpperArm">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="RightUpperArm_RightTricBrac">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm_RightTricBrac.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="RightUpperArm_RightBicBrac">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperArm_RightBicBrac.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04617834395" length="0.30969"/>
+      </geometry>
+      <origin xyz="0.0 -0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightForeArm_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightForeArm">
+    <inertial>
+      <origin xyz="0.0 -0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="0.885"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightForeArm">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="RightForeArm_RightFlexCarp">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm_RightFlexCarp.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="RightForeArm_RightExtCarp">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightForeArm_RightExtCarp.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03503184713375795" length="0.24309"/>
+      </geometry>
+      <origin xyz="0.0 -0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightHand_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightHand">
+    <inertial>
+      <origin xyz="0.0 -0.08991 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.34809999999999997"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightHand">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightHand.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 -0.08991 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.085   0.17982 0.025  "/>
+      </geometry>
+      <origin xyz="0.0 -0.08991 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightHandCOM">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0. 0. 0."/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LeftShoulder_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftShoulder_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftUpperArm">
+    <inertial>
+      <origin xyz="0.0 0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="1.5517"/>
+      <inertia ixx="0.013228916771824981" ixy="0.0" ixz="0.0" iyy="0.013228916771824981" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftUpperArm">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="LeftUpperArm_LeftTricBrac">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm_LeftTricBrac.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="LeftUpperArm_LeftBicBrac">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperArm_LeftBicBrac.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04617834395" length="0.30969"/>
+      </geometry>
+      <origin xyz="0.0 0.154845 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftForeArm_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftForeArm">
+    <inertial>
+      <origin xyz="0.0 0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+      <mass value="0.885"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftForeArm">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="LeftForeArm_LeftFlexCarp">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm_LeftFlexCarp.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <visual name="LeftForeArm_LeftExtCarp">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftForeArm_LeftExtCarp.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03503184713375795" length="0.24309"/>
+      </geometry>
+      <origin xyz="0.0 0.121545 0.0" rpy="1.5708 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftHand_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftHand">
+    <inertial>
+      <origin xyz="0.0 0.08991 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.34809999999999997"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftHand">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftHand.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.08991 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.085   0.17982 0.025  "/>
+      </geometry>
+      <origin xyz="0.0 0.08991 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftHandCOM">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0. 0. 0."/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="RightUpperLeg_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightUpperLeg_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightUpperLeg">
+    <inertial>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+      <mass value="8.5373"/>
+      <inertia ixx="0.13137960697723808" ixy="0.0" ixz="0.0" iyy="0.13137960697723808" iyz="0.0" izz="0.025987435210757432"/>
+    </inertial>
+    <visual name="RightUpperLeg">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="RightUpperLeg_RightRecFem">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg_RightRecFem.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="RightUpperLeg_RightBicFem">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightUpperLeg_RightBicFem.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.0780254777" length="0.407925"/>
+      </geometry>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightLowerLeg_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightLowerLeg">
+    <inertial>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+      <mass value="2.6963"/>
+      <inertia ixx="0.03967098282366179" ixy="0.0" ixz="0.0" iyy="0.03967098282366179" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightLowerLeg">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="RightLowerLeg_RightTibAnt">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightTibAnt.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="RightLowerLeg_RightGasMed">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightGasMed.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="RightLowerLeg_RightGasLat">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightLowerLeg_RightGasLat.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.0541401274" length="0.40959"/>
+      </geometry>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightFoot_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightFoot_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RightFoot">
+    <inertial>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.7768529999999999"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightFoot">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightFoot.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.25308  0.091575 0.064935"/>
+      </geometry>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightToe">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0039235"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightToe">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightToe.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0025308 0.091575  0.064935 "/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightHeel">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0039235"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="RightHeel">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\RightHeel.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0025308 0.091575  0.064935 "/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="RightFTSensor">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0. 0. 0."/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LeftUpperLeg_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftUpperLeg_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftUpperLeg">
+    <inertial>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+      <mass value="8.5373"/>
+      <inertia ixx="0.13137960697723808" ixy="0.0" ixz="0.0" iyy="0.13137960697723808" iyz="0.0" izz="0.025987435210757432"/>
+    </inertial>
+    <visual name="LeftUpperLeg">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="LeftUpperLeg_LeftRecFem">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg_LeftRecFem.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="LeftUpperLeg_LeftBicFem">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftUpperLeg_LeftBicFem.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.0780254777" length="0.407925"/>
+      </geometry>
+      <origin xyz="0.0 0.0 -0.2039625" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftLowerLeg_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftLowerLeg">
+    <inertial>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+      <mass value="2.6963"/>
+      <inertia ixx="0.03967098282366179" ixy="0.0" ixz="0.0" iyy="0.03967098282366179" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftLowerLeg">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="LeftLowerLeg_LeftTibAnt">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftTibAnt.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="LeftLowerLeg_LeftGasMed">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftGasMed.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <visual name="LeftLowerLeg_LeftGasLat">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftLowerLeg_LeftGasLat.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="muscle">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.0541401274" length="0.40959"/>
+      </geometry>
+      <origin xyz="0.0 0.0 -0.204795" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftFoot_f1">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftFoot_f2">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="LeftFoot">
+    <inertial>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.7768529999999999"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftFoot">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftFoot.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.25308  0.091575 0.064935"/>
+      </geometry>
+      <origin xyz="0.07239987259999998 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftToe">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0039235"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftToe">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftToe.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0025308 0.091575  0.064935 "/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftHeel">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0039235"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+    <visual name="LeftHeel">
+      <geometry>
+        <mesh filename="C:\Users\ldanovaro\Documents\GitHub\human-model-generator\code\models\humanModelTemplate\meshes\LeftHeel.stl" scale="1. 1. 1."/>
+      </geometry>
+      <material name="Link">
+        <color rgba="0.9922 0.8667 0.7922 1.    "/>
+      </material>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0025308 0.091575  0.064935 "/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0324675" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+  <link name="LeftFTSensor">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="1e-05"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0. 0. 0."/>
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="BicBrac_RUA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicBrac_RFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TricBrac_RUA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TricBrac_RFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="FlexCarp_RFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="FlexCarp_RH">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ExtCarp_RFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ExtCarp_RH">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicBrac_LUA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicBrac_LFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TricBrac_LUA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TricBrac_LFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="FlexCarp_LFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="FlexCarp_LH">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ExtCarp_LFA">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ExtCarp_LH">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecAbd_RUT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecAbd_RP">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ErSpin_RUT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ErSpin_RP">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecAbd_LUT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecAbd_LP">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ErSpin_LUT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="ErSpin_LP">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecFem_RLT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecFem_RLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicFem_RUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicFem_RLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecFem_LLT">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="RecFem_LLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicFem_LUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="BicFem_LLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TibAnt_RLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TibAnt_RF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasLat_RUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasLat_RF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasMed_RUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasMed_RF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TibAnt_LLL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="TibAnt_LF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasLat_LUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasLat_LF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasMed_LUL">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <link name="GasMed_LF">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.0"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+    </inertial>
+  </link>
+  <joint name="jL5S1_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="Pelvis"/>
+    <child link="L5_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jL5S1_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="1.309"/>
+    <parent link="L5_f1"/>
+    <child link="L5"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jL4L3_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="L5"/>
+    <child link="L3_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.0491175" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jL4L3_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="1.309"/>
+    <parent link="L3_f1"/>
+    <child link="L3"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jL1T12_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="L3"/>
+    <child link="T12_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.074925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jL1T12_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="1.309"/>
+    <parent link="T12_f1"/>
+    <child link="T12"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT9T8_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.349066"/>
+    <parent link="T12"/>
+    <child link="T8_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.087579" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT9T8_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.261799" upper="0.698132"/>
+    <parent link="T8_f1"/>
+    <child link="T8_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT9T8_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="T8_f2"/>
+    <child link="T8"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7RightShoulder_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="0.0872665"/>
+    <parent link="T8"/>
+    <child link="C7Right_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.0718725 0.09185015604999999" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7RightShoulder_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.349066"/>
+    <parent link="C7Right_f1"/>
+    <child link="C7Right_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7RightShoulder_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.349066"/>
+    <parent link="C7Right_f2"/>
+    <child link="RightShoulder"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7LeftShoulder_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.0872665" upper="0.785398"/>
+    <parent link="T8"/>
+    <child link="C7Left_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0718725 0.09185015604999999" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7LeftShoulder_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.349066"/>
+    <parent link="C7Left_f1"/>
+    <child link="C7Left_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC7LeftShoulder_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.349066"/>
+    <parent link="C7Left_f2"/>
+    <child link="LeftShoulder"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT1C7_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="T8"/>
+    <child link="Neck_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.1380285" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT1C7_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.959931" upper="1.5708"/>
+    <parent link="Neck_f1"/>
+    <child link="Neck_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jT1C7_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.22173" upper="1.22173"/>
+    <parent link="Neck_f2"/>
+    <child link="Neck"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC1Head_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.610865"/>
+    <parent link="Neck"/>
+    <child link="Head_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.08658" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jC1Head_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.436332" upper="0.174533"/>
+    <parent link="Head_f1"/>
+    <child link="Head"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightShoulder_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-2.35619" upper="1.5708"/>
+    <parent link="RightShoulder"/>
+    <child link="RightShoulder_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.143745 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightShoulder_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="1.5708"/>
+    <parent link="RightShoulder_f1"/>
+    <child link="RightShoulder_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightShoulder_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="3.14159"/>
+    <parent link="RightShoulder_f2"/>
+    <child link="RightUpperArm"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightElbow_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="1.48353"/>
+    <parent link="RightUpperArm"/>
+    <child link="RightForeArm_f1"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 -0.30969 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightElbow_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="0.0" upper="2.53073"/>
+    <parent link="RightForeArm_f1"/>
+    <child link="RightForeArm"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightWrist_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.872665" upper="1.0472"/>
+    <parent link="RightForeArm"/>
+    <child link="RightHand_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.24309 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightWrist_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="0.349066"/>
+    <parent link="RightHand_f1"/>
+    <child link="RightHand"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightHandCOM" type="fixed">
+    <parent link="RightHand"/>
+    <child link="RightHandCOM"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.08991 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftShoulder_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="2.35619"/>
+    <parent link="LeftShoulder"/>
+    <child link="LeftShoulder_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.143745 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftShoulder_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="1.5708"/>
+    <parent link="LeftShoulder_f1"/>
+    <child link="LeftShoulder_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftShoulder_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-3.14159" upper="0.785398"/>
+    <parent link="LeftShoulder_f2"/>
+    <child link="LeftUpperArm"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftElbow_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="1.48353"/>
+    <parent link="LeftUpperArm"/>
+    <child link="LeftForeArm_f1"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.30969 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftElbow_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-2.53073" upper="0.0"/>
+    <parent link="LeftForeArm_f1"/>
+    <child link="LeftForeArm"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftWrist_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.0472" upper="0.872665"/>
+    <parent link="LeftForeArm"/>
+    <child link="LeftHand_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.24309 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftWrist_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.349066" upper="0.523599"/>
+    <parent link="LeftHand_f1"/>
+    <child link="LeftHand"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftHandCOM" type="fixed">
+    <parent link="LeftHand"/>
+    <child link="LeftHandCOM"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.08991 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightHip_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="0.523599"/>
+    <parent link="Pelvis"/>
+    <child link="RightUpperLeg_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.0809820223 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightHip_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-2.0944" upper="0.261799"/>
+    <parent link="RightUpperLeg_f1"/>
+    <child link="RightUpperLeg_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightHip_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="0.785398"/>
+    <parent link="RightUpperLeg_f2"/>
+    <child link="RightUpperLeg"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightKnee_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="0.0" upper="2.35619"/>
+    <parent link="RightUpperLeg"/>
+    <child link="RightLowerLeg_f1"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightKnee_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.698132" upper="0.523599"/>
+    <parent link="RightLowerLeg_f1"/>
+    <child link="RightLowerLeg"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightAnkle_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.610865" upper="0.785398"/>
+    <parent link="RightLowerLeg"/>
+    <child link="RightFoot_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 -0.40959" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightAnkle_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="0.872665"/>
+    <parent link="RightFoot_f1"/>
+    <child link="RightFoot_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightAnkle_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.436332" upper="0.872665"/>
+    <parent link="RightFoot_f2"/>
+    <child link="RightFoot"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBallFoot_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.174533" upper="1.5708"/>
+    <parent link="RightFoot"/>
+    <child link="RightToe"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.20020527259999996 0.0 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightHeel_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="0.174533"/>
+    <parent link="RightFoot"/>
+    <child link="RightHeel"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBirken_roty" type="fixed">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.174533" upper="1.5708"/>
+    <parent link="RightFoot"/>
+    <child link="RightFTSensor"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.037 0.0 -0.11993500000000001" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftHip_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="0.785398"/>
+    <parent link="Pelvis"/>
+    <child link="LeftUpperLeg_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0809820223 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftHip_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-2.0944" upper="0.261799"/>
+    <parent link="LeftUpperLeg_f1"/>
+    <child link="LeftUpperLeg_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftHip_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="0.785398"/>
+    <parent link="LeftUpperLeg_f2"/>
+    <child link="LeftUpperLeg"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftKnee_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="0.0" upper="2.35619"/>
+    <parent link="LeftUpperLeg"/>
+    <child link="LeftLowerLeg_f1"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftKnee_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="0.698132"/>
+    <parent link="LeftLowerLeg_f1"/>
+    <child link="LeftLowerLeg"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftAnkle_rotx" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.785398" upper="0.610865"/>
+    <parent link="LeftLowerLeg"/>
+    <child link="LeftFoot_f1"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 -0.40959" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftAnkle_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.523599" upper="0.872665"/>
+    <parent link="LeftFoot_f1"/>
+    <child link="LeftFoot_f2"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftAnkle_rotz" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.872665" upper="0.436332"/>
+    <parent link="LeftFoot_f2"/>
+    <child link="LeftFoot"/>
+    <axis xyz="0. 0. 1."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBallFoot_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.174533" upper="1.5708"/>
+    <parent link="LeftFoot"/>
+    <child link="LeftToe"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.20020527259999996 0.0 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftHeel_roty" type="revolute">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-1.5708" upper="0.174533"/>
+    <parent link="LeftFoot"/>
+    <child link="LeftHeel"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBirken_roty" type="fixed">
+    <dynamics damping="0.1" friction="0.0"/>
+    <limit effort="30.0" velocity="1.0" lower="-0.174533" upper="1.5708"/>
+    <parent link="LeftFoot"/>
+    <child link="LeftFTSensor"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.037 0.0 -0.11993500000000001" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBicBrac_RUA" type="fixed">
+    <parent link="RightUpperArm"/>
+    <child link="BicBrac_RUA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-2.827608055414652e-18 0.0 0.04617834395" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBicBrac_RFA" type="fixed">
+    <parent link="RightForeArm"/>
+    <child link="BicBrac_RFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03503184713375795 0.0 0.03503184713375795" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightTricBrac_RUA" type="fixed">
+    <parent link="RightUpperArm"/>
+    <child link="TricBrac_RUA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.04617834395 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightTricBrac_RFA" type="fixed">
+    <parent link="RightForeArm"/>
+    <child link="TricBrac_RFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03503184713375795 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightFlexCarp_RFA" type="fixed">
+    <parent link="RightForeArm"/>
+    <child link="FlexCarp_RFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.03503184713375795 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightFlexCarp_RH" type="fixed">
+    <parent link="RightHand"/>
+    <child link="FlexCarp_RH"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.017 -0.08991 0.0125" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightExtCarp_RFA" type="fixed">
+    <parent link="RightForeArm"/>
+    <child link="ExtCarp_RFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03503184713375795 0.0 4.290163946057605e-18" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightExtCarp_RH" type="fixed">
+    <parent link="RightHand"/>
+    <child link="ExtCarp_RH"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.017 -0.08991 -0.0125" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBicBrac_LUA" type="fixed">
+    <parent link="LeftUpperArm"/>
+    <child link="BicBrac_LUA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="2.827608055414652e-18 0.0 0.04617834395" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBicBrac_LFA" type="fixed">
+    <parent link="LeftForeArm"/>
+    <child link="BicBrac_LFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03503184713375795 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftTricBrac_LUA" type="fixed">
+    <parent link="LeftUpperArm"/>
+    <child link="TricBrac_LUA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.04617834395 0.0 5.655216110829304e-18" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftTricBrac_LFA" type="fixed">
+    <parent link="LeftForeArm"/>
+    <child link="TricBrac_LFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03503184713375795 0.0 4.290163946057605e-18" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftFlexCarp_LFA" type="fixed">
+    <parent link="LeftForeArm"/>
+    <child link="FlexCarp_LFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.03503184713375795 0.0 4.290163946057605e-18" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftFlexCarp_LH" type="fixed">
+    <parent link="LeftHand"/>
+    <child link="FlexCarp_LH"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.017 0.08991 0.0125" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftExtCarp_LFA" type="fixed">
+    <parent link="LeftForeArm"/>
+    <child link="ExtCarp_LFA"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.03503184713375795 0.0 4.290163946057605e-18" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftExtCarp_LH" type="fixed">
+    <parent link="LeftHand"/>
+    <child link="ExtCarp_LH"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.017 0.08991 -0.025" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightRecAbd_RUT" type="fixed">
+    <parent link="T8"/>
+    <child link="RecAbd_RUT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03 -0.0718725 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightRecAbd_RP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="RecAbd_RP"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.1125 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightErSpin_RUT" type="fixed">
+    <parent link="T8"/>
+    <child link="ErSpin_RUT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.03 -0.0718725 0.1380285" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightErSpin_RP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="ErSpin_RP"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.1125 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftRecAbd_LUT" type="fixed">
+    <parent link="T8"/>
+    <child link="RecAbd_LUT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.03 0.0718725 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftRecAbd_LP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="RecAbd_LP"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftErSpin_LUT" type="fixed">
+    <parent link="T8"/>
+    <child link="ErSpin_LUT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.03 0.0718725 0.1380285" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftErSpin_LP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="ErSpin_LP"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.1125 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightRecFem_RP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="RecFem_RLT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.1125 -0.106005 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightRecFem_RLL" type="fixed">
+    <parent link="RightLowerLeg"/>
+    <child link="RecFem_RLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0541401274 -3.3151266862919956e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBicFem_RUL" type="fixed">
+    <parent link="RightUpperLeg"/>
+    <child link="BicFem_RUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0780254777 9.945380058875987e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightBicFem_RLL" type="fixed">
+    <parent link="RightLowerLeg"/>
+    <child link="BicFem_RLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0 -0.0541401274 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftRecFem_LP" type="fixed">
+    <parent link="Pelvis"/>
+    <child link="RecFem_LLT"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.1125 0.106005 -0.064935" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftRecFem_LLL" type="fixed">
+    <parent link="LeftLowerLeg"/>
+    <child link="RecFem_LLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0541401274 -3.3151266862919956e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBicFem_LUL" type="fixed">
+    <parent link="LeftUpperLeg"/>
+    <child link="BicFem_LUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0780254777 9.945380058875987e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftBicFem_LLL" type="fixed">
+    <parent link="LeftLowerLeg"/>
+    <child link="BicFem_LLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="6.630253372583991e-18 0.0541401274 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightTibAnt_RLL" type="fixed">
+    <parent link="RightLowerLeg"/>
+    <child link="TibAnt_RLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0541401274 -3.3151266862919956e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightTibAnt_RF" type="fixed">
+    <parent link="RightFoot"/>
+    <child link="TibAnt_RF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.12653999999999999 0.0457875 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightGasLat_RUL" type="fixed">
+    <parent link="RightUpperLeg"/>
+    <child link="GasLat_RUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.06757204583061621 -0.027070063700000008 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightGasLat_RF" type="fixed">
+    <parent link="RightFoot"/>
+    <child link="GasLat_RF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightGasMed_RUL" type="fixed">
+    <parent link="RightUpperLeg"/>
+    <child link="GasMed_RUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0675720458306162 0.027070063700000025 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jRightGasMed_RF" type="fixed">
+    <parent link="RightFoot"/>
+    <child link="GasMed_RF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftTibAnt_LLL" type="fixed">
+    <parent link="LeftLowerLeg"/>
+    <child link="TibAnt_LLL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.0541401274 -3.3151266862919956e-18 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftTibAnt_LF" type="fixed">
+    <parent link="LeftFoot"/>
+    <child link="TibAnt_LF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="0.12653999999999999 -0.0457875 0.0" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftGasLat_LUL" type="fixed">
+    <parent link="LeftUpperLeg"/>
+    <child link="GasLat_LUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0675720458306162 0.027070063700000025 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftGasLat_LF" type="fixed">
+    <parent link="LeftFoot"/>
+    <child link="GasLat_LF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftGasMed_LUL" type="fixed">
+    <parent link="LeftUpperLeg"/>
+    <child link="GasMed_LUL"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.06757204583061621 -0.027070063700000008 -0.407925" rpy="0.0 0.0 0.0"/>
+  </joint>
+  <joint name="jLeftGasMed_LF" type="fixed">
+    <parent link="LeftFoot"/>
+    <child link="GasMed_LF"/>
+    <axis xyz="1. 0. 0."/>
+    <origin xyz="-0.0541401274 0.0 -0.0324675" rpy="0.0 0.0 0.0"/>
+  </joint>
+</robot>

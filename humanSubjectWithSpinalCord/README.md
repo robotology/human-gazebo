@@ -1,0 +1,1 @@
+The meshes in this folder have been derived from https://blendswap.com/blend/11604 and from https://lifesciencedb.jp/bp3d/?lng=en.
