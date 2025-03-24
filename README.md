@@ -26,6 +26,14 @@ In the folder [humanSubjectWithMeshes](./humanSubjectWithMeshes) there is a `urd
 
 ![humanSubjectWithMesh](https://github.com/user-attachments/assets/dafeaf9a-3c15-4b72-a21d-4f20b1897350)
 
+## Human subject with spinal cord 
+In the folder [humanSubjectWithSpinalCord](./humanSubjectWithSpinalCord) there is a `urdf` model of a human subject generated using the code in [human-model-generator](https://github.com/ami-iit/human-model-generator) with meshes  under CC-BY_SA license (https://creativecommons.org/licenses/by-sa/2.0/deed.en); all the meshes were trimmed, morphed and totally or partially reconstructed to reach the desired shape and topology. 
+
+This model updates the previous one by incorporating a more detailed spinal cord representation. Moreover the previous torso model has been restructured by adding two new links and two new joints, enhancing the biomechanical behavior of the model. These modifications allow for a more precise simulation of spinal motion.
+The model is shown in the following figure:
+![Screenshot 2025-03-24 101947](https://github.com/user-attachments/assets/74825688-775a-4aed-82b9-de6888b7064c)
+
+
 
 ## Mantainers
 
