@@ -31,7 +31,8 @@ In the folder [humanSubjectWithSpinalCord](./humanSubjectWithSpinalCord) there i
 
 This model updates the previous one by incorporating a more detailed spinal cord representation. Moreover the previous torso model has been restructured by adding two new links and two new joints, enhancing the biomechanical behavior of the model. These modifications allow for a more precise simulation of spinal motion.
 The model is shown in the following figure:
-![alt text](image.png)
+![Screenshot 2025-03-24 101947](https://github.com/user-attachments/assets/74825688-775a-4aed-82b9-de6888b7064c)
+
 
 
 ## Mantainers
